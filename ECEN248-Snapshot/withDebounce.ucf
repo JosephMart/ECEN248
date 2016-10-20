@@ -1,0 +1,18 @@
+#Push-buttons
+NET "Center" LOC = "V16"  | IOSTANDARD = LVTTL | PULLDOWN | SLEW = FAST; #ROT_CENTER
+
+# LEDs
+NET "LEDs[0]"  LOC = "F12" | IOSTANDARD = LVTTL; #LD0
+NET "LEDs[1]"  LOC = "E12" | IOSTANDARD = LVTTL; #LD1
+NET "LEDs[2]"  LOC = "E11" | IOSTANDARD = LVTTL; #LD2
+NET "LEDs[3]"  LOC = "F11" | IOSTANDARD = LVTTL; #LD3
+NET "LEDs[4]"  LOC = "C11" | IOSTANDARD = LVTTL; #LD4
+NET "LEDs[5]"  LOC = "D11" | IOSTANDARD = LVTTL; #LD5
+NET "LEDs[6]"  LOC = "E9"  | IOSTANDARD = LVTTL; #LD6
+NET "LEDs[7]"  LOC = "F9"  | IOSTANDARD = LVTTL; #LD7
+
+
+#Clock constraints
+NET "Clk" LOC = "C9" | IOSTANDARD = LVCMOS33 ;
+# Define clock period for 50 MHz oscillator
+NET "Clk" PERIOD = 20.0ns HIGH 40%;

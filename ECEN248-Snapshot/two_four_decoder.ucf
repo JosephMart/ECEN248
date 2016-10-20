@@ -1,0 +1,18 @@
+#This User Constraint File creates a mapping of
+#the input and output ports from your top level
+#module to the actual pins on the FPGA
+
+#NET ---> specifies the net name within our design
+#LOC ---> specifies the pin location on the FPGA
+ 
+# User Switches
+NET "W[0]"  LOC = "L13"; #SW0
+NET "W[1]"  LOC = "L14"; #SW1
+NET "En"    LOC = "H18"; #SW2
+
+# LEDs
+NET "Y[0]"  LOC = "F12"; #LD0
+NET "Y[1]"  LOC = "E12"; #LD1
+NET "Y[2]"  LOC = "E11"; #LD2
+NET "Y[3]"  LOC = "F11"; #LD3
+

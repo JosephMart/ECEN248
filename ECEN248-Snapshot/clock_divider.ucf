@@ -1,0 +1,8 @@
+NET "ClkOut[0]" LOC = "B4" | IOSTANDARD = LVTTL; #J0
+NET "ClkOut[1]" LOC = "A4" | IOSTANDARD = LVTTL; #J1
+NET "ClkOut[2]" LOC = "D5" | IOSTANDARD = LVTTL; #J2
+NET "ClkOut[3]" LOC = "C5" | IOSTANDARD = LVTTL; #J3
+
+NET "ClkIn" LOC = "C9" | IOSTANDARD = LVCMOS33 ;
+# Define clock period for 50 MHz oscillator
+NET "ClkIn" PERIOD = 20.0ns HIGH 40%;

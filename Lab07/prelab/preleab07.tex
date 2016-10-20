@@ -1,0 +1,81 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{outline}
+\usepackage{pmgraph}
+\usepackage[normalem]{ulem}
+\usepackage{comment} % enables the use of multi-line comments (\ifx \fi)
+\usepackage{lipsum} %This package just generates Lorem Ipsum filler text.
+\usepackage{fullpage} % changes the margin
+\usepackage{listings}
+\usepackage{color}
+\usepackage{mdframed}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb,amsthm,latexsym,paralist,url}
+\graphicspath{ {../} }
+\renewcommand{\lstlistingname}{Code Block}% Listing -> Algorithm
+\renewcommand{\lstlistlistingname}{List of \lstlistingname s}% List of Listings -> List of Algorithms
+\title{\textbf{Lab 06: Introduction to Logic Simulation and Verilog}}
+\author{Joseph Martinsen \\ ECEN 248-510 \\ TA: Michael Bass}
+\date{\today}
+
+\linespread{1.5}
+%--------------------Indention
+\setlength{\parindent}{15pt}
+\lstset{frame=shadowbox, rulesepcolor=\color{white}}
+\mdfsetup{frametitlealignment=\center}
+\lstset{
+  numbers=left,
+  stepnumber=1,
+  firstnumber=1,
+  numberfirstline=true
+}
+
+\begin{document}
+\section*{Prelab Questions}
+
+\textbf{Question 1:} Verilog code with comments for the 2:4 binary decoder, the 4:2 binary encoder, and the 4:2 priority
+encoder. Do not use behavioral Verilog for these descriptions! Use the structural and dataflow
+concepts introduced in the previous lab.
+
+\lstinputlisting[language=Verilog,caption=2:4 Binary Decoder]{2_4_binary_decoder.v}
+
+\lstinputlisting[language=Verilog,,caption=4:2 Binary Encoder]{4_2_binary_encoder.v}
+
+\lstinputlisting[language=Verilog,,caption=4:2 Priority Binary Encoder]{4_2_priority_binary_encoder.v}
+
+\vspace{10pt}
+\hspace{-15pt}\textbf{Question 2:} The complete truth table for the gate-level schematic shown in Figure 2. This truth table should not
+include “don’t cares” (i.e. ‘X’)!
+\begin{center}
+      \begin{tabular}{c c c c||c c c}
+        \hline
+        $w_0$ & $w_1$ & $w_2$ & $w_3$ & $y_1$ & $y_0$ & $zero$ \\ [0.5ex]
+        \hline
+        0 & 0 & 0 & 0 & 0 & 0 & 1 \\
+        0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+        0 & 0 & 1 & 0 & 1 & 0 & 1 \\
+        0 & 0 & 1 & 1 & 1 & 1 & 1 \\
+        \hline
+        0 & 1 & 0 & 0 & 0 & 1 & 1 \\
+        0 & 1 & 0 & 1 & 1 & 1 & 1 \\
+        0 & 1 & 1 & 0 & 1 & 1 & 1 \\
+        0 & 1 & 1 & 1 & 1 & 1 & 1 \\
+        \hline
+        1 & 0 & 0 & 0 & 0 & 0 & 1 \\
+        1 & 0 & 0 & 1 & 1 & 1 & 1 \\
+        1 & 0 & 1 & 0 & 1 & 0 & 1 \\
+        1 & 0 & 1 & 1 & 1 & 1 & 1 \\
+        \hline
+        1 & 1 & 0 & 0 & 0 & 1 & 1 \\
+        1 & 1 & 0 & 1 & 1 & 1 & 1 \\
+        1 & 1 & 1 & 0 & 1 & 1 & 1 \\
+        1 & 1 & 1 & 1 & 1 & 1 & 0
+      \end{tabular}
+  \end{center}
+
+\vspace{10pt}
+\hspace{-15pt}\textbf{Question 3:} A brief comparison of the the behavioral implementation of a multiplexer described in the background
+section with the multiplexer you described in the previous lab using structural and dataflow.
+
+First off, in the behavioral implementation, there are no ouput wires. Instead there is a output reg, unique to an always block. The big difference is that in the structual code, the gate levels must be instatiated. Compare that to the behavioral which has an always block with a nested if else statement. The if else statement drives the logic instead of having to use logic gates. 
+\end{document}
