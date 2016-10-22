@@ -1,17 +1,18 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////
-// Design Name:
 // Module Name:		priority_encoder
-// Author:
+// Author: Joseph Martinsen
 //
 //////////////////////////////////////////////////////
-module priority_encoder(input wire [3:0] W,
+module priority_encoder(input wire [3:0] W, // Input/Ouput prots
     output wire zero,
     output reg [1:0] Y
     );
 
+    // Assign value when W has no change
     assign zero = (W == 4'b0000);
 
+    // Behavioral logic for Priority Encoder
     always@(W)
    	 begin
    		 casex(W)

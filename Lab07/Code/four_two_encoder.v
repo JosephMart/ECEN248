@@ -1,18 +1,20 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////
-// Design Name:
 // Module Name:		four_two_encoder
-// Author:
+// Author: Joseph Martinsen
 //
 //////////////////////////////////////////////////////
 module four_two_encoder(
+    // Input and output ports
     input wire [3:0] W,
     output wire zero,
     output reg [1:0] Y
     );
 
+    // Assign case for no W
     assign zero = (W == 4'b0000);
 
+    // Behavioral logci for 4:2 Encoder
     always@(W)
    	 begin
    		 case(W)

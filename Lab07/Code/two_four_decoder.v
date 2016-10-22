@@ -1,17 +1,18 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////
-// Design Name:
-// Module Name:		priority_encoder
-// Author:
+// Module Name:		two_four_decoder
+// Author: Joseph Martinsen
 //
 //////////////////////////////////////////////////////
 
 module two_four_decoder(
+    // Input/Output Ports
    	 input wire [1:0] W,
    	 input wire En,
    	 output reg [3:0] Y
 	);
 
+    // Behavioral logic for 2:4 Decoder
      always@ (En or W)
    	 begin
    		 if(En == 1'b1)

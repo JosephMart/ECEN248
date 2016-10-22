@@ -1,8 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////
-// Design Name:
 // Module Name:		two_one_mux_behavioral
-// Author:
+// Author: Joseph Martinsen
 //
 //////////////////////////////////////////////////////
 
@@ -14,7 +13,7 @@ module two_one_mux(Y, A, B, S);
     input wire B;
     input wire S;
 
-
+    // 2:1 Behavioral Mux
     always@(A or B or S)
    	 begin
    		 if(S == 1'b0)

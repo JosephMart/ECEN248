@@ -1,14 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.9.21)  18 OCT 2016 12:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.5)  22 OCT 2016 14:00
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**./Lab_07Report.tex
+**Lab_07Report.tex
 (./Lab_07Report.tex
-LaTeX2e <2016/03/31> patch level 3
+LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
-(c:/texlive/2016/texmf-dist/tex/latex/base/article.cls
+(/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(c:/texlive/2016/texmf-dist/tex/latex/base/size12.clo
+(/usr/share/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -22,8 +23,7 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(c:/texlive/2016/texmf-dist/tex/latex/outline/outline.sty
+) (/usr/share/texmf-dist/tex/latex/outline/outline.sty
 Package: outline 2002/08/23 Simple Outline Package
 \c@@outlndepth=\count87
 \@outlndepth=\count88
@@ -33,14 +33,12 @@ Package: outline 2002/08/23 Simple Outline Package
 \c@outlniv=\count92
 \c@outlnv=\count93
 \c@outlnvi=\count94
-)
-(c:/texlive/2016/texmf-dist/tex/latex/pmgraph/pmgraph.sty
+) (/usr/share/texmf-dist/tex/latex/pmgraph/pmgraph.sty
 \@dimenA=\dimen103
 \@dimenB=\dimen104
 \@dimenC=\dimen105
 \@dimenD=\dimen106
-)
-(c:/texlive/2016/texmf-dist/tex/generic/ulem/ulem.sty
+) (/usr/share/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box26
 \UL@hyphenbox=\box27
 \UL@skip=\skip43
@@ -51,21 +49,15 @@ Package: outline 2002/08/23 Simple Outline Package
 \ULC@box=\box28
 Package: ulem 2012/05/18
 \ULdepth=\dimen109
-)
-(c:/texlive/2016/texmf-dist/tex/latex/comment/comment.sty
+) (/usr/share/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
-
-Excluding comment 'comment')
-(c:/texlive/2016/texmf-dist/tex/latex/lipsum/lipsum.sty
+ Excluding comment 'comment') (/usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count96
-)
-(c:/texlive/2016/texmf-dist/tex/latex/preprint/fullpage.sty
+) (/usr/share/texmf-dist/tex/latex/preprint/fullpage.sty
 Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip44
-)
-(c:/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
-(c:/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+) (/usr/share/texmf-dist/tex/latex/listings/listings.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
@@ -81,50 +73,39 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \lst@newlines=\count101
 \lst@lineno=\count102
 \lst@maxwidth=\dimen113
-
-(c:/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+ (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count103
 \lst@skipnumbers=\count104
 \lst@framebox=\box30
-)
-(c:/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
+) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
-
-(c:/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-(c:/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (/usr/share/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+ (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 147.
-
-(c:/texlive/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
-
-(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package color Info: Driver file: pdftex.def on input line 144.
+ (/usr/share/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+ (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+) (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count105
-))
-(c:/texlive/2016/texmf-dist/tex/latex/mdframed/mdframed.sty
+)) (/usr/share/texmf-dist/tex/latex/mdframed/mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
 
-(c:/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+ (/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+ (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+ (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -132,12 +113,9 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-)))
-(c:/texlive/2016/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(c:/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3.sty
+))) (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2016/05/18 v6512 L3 programming layer (loader) 
-
-(c:/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+ (/usr/share/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2016/05/18 v6512 L3 programming layer (code)
 L3 Module: l3bootstrap 2016/02/12 v6412 L3 Bootstrap code
 L3 Module: l3names 2016/03/11 v6433 L3 Namespace for primitives
@@ -243,8 +221,7 @@ L3 Module: l3candidates 2016/05/13 v6484 L3 Experimental additions to l3kernel
 \l__coffin_scaled_total_height_dim=\dimen143
 \l__coffin_scaled_width_dim=\dimen144
 L3 Module: l3luatex 2016/03/26 v6465 L3 Experimental LuaTeX-specific functions
-)
-(c:/texlive/2016/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+) (/usr/share/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2016/03/26 v6465 L3 Experimental driver: PDF mode
 \l__driver_color_stack_int=\count128
 \l__driver_tmp_box=\box46
@@ -255,46 +232,36 @@ Package: xparse 2016/05/18 v6512 L3 Experimental document command parser
 \l__xparse_mandatory_args_int=\count131
 \l__xparse_processor_int=\count132
 \l__xparse_v_nesting_int=\count133
-)
-(c:/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+) (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count134
-)
-(c:/texlive/2016/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
-Package: zref-abspage 2016/05/21 v2.26 Module abspage for zref (HO)
-
-(c:/texlive/2016/texmf-dist/tex/latex/oberdiek/zref-base.sty
-Package: zref-base 2016/05/21 v2.26 Module base for zref (HO)
-
-(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+) (/usr/share/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
+Package: zref-abspage 2016/05/16 v2.25 Module abspage for zref (HO)
+ (/usr/share/texmf-dist/tex/latex/oberdiek/zref-base.sty
+Package: zref-base 2016/05/16 v2.25 Module base for zref (HO)
+ (/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-)
-(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)
-(c:/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+) (/usr/share/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
-)
-(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/atbegshi.sty
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+) (/usr/share/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
 )
 \c@abspage=\count135
 Package zref Info: New property: abspage on input line 62.
-)
-(c:/texlive/2016/texmf-dist/tex/latex/needspace/needspace.sty
+) (/usr/share/texmf-dist/tex/latex/needspace/needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
 \mdf@templength=\skip51
@@ -339,7 +306,7 @@ Package: needspace 2010/09/12 v1.3d reserve vertical space
 \mdf@subsubtitleinneraboveskip@length=\skip89
 \mdf@subsubtitleinnerbelowskip@length=\skip90
 
-(c:/texlive/2016/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
+(/usr/share/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
 File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 )
 \mdf@frametitlebox=\box47
@@ -395,25 +362,20 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \c@mdf@env@ii=\count140
 \c@mdf@zref@counter=\count141
 Package zref Info: New property: mdf@pagevalue on input line 895.
-)
-(c:/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-
-(c:/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
-
-(c:/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
 )
-(c:/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 96.
 )
 \Gin@req@height=\dimen145
 \Gin@req@width=\dimen146
-)
-(./Lab_07Report.aux)
+) (./Lab_07Report.aux)
 \openout1 = `Lab_07Report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -429,8 +391,7 @@ LaTeX Font Info:    ... okay on input line 29.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
 \c@lstlisting=\count142
-
-(c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count143
 \scratchdimen=\dimen147
@@ -443,75 +404,129 @@ LaTeX Font Info:    ... okay on input line 29.
 \MPnumerator=\count147
 \makeMPintoPDFobject=\count148
 \everyMPtoPDFconversion=\toks18
-) (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+)
+\AtBeginShipoutBox=\box53
+ (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(c:/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+ (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-
-(c:/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+ (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\AtBeginShipoutBox=\box53
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 33.
-
-(c:/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+ (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-(c:/texlive/2016/texmf-dist/tex/latex/listings/lstlang2.sty
+) (/usr/share/texmf-dist/tex/latex/listings/lstlang2.sty
 File: lstlang2.sty 2015/06/04 1.6 listings language file
-)
-(c:/texlive/2016/texmf-dist/tex/latex/listings/lstlang3.sty
+) (/usr/share/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2015/06/04 1.6 listings language file
-)
-(../Code/four_bit_mux_behavioral.v
+) (../Code/two_one_mux_behavioral.v
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 9.
-
-(c:/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+ (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
  [1
 
-{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+{/usr/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]) (../Code/four_bit_mux_behavioral.v [2]) (../Code/mux_4bit_4tol.v
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
+ [3]) (../Code/two_four_decoder.v [4]) (../Code/four_two_encoder.v [5]) (../Code/priority_encoder.v [6]) <../ScreenShots/1_1_1.png, id=26, 1284.8pt x 1027.84pt>
+File: ../ScreenShots/1_1_1.png Graphic file (type png)
+ <use ../ScreenShots/1_1_1.png>
+Package pdftex.def Info: ../ScreenShots/1_1_1.png used on input line 84.
+(pdftex.def)             Requested size: 231.25401pt x 185.00322pt.
+ [7 <../ScreenShots/1_1_1.png>] <../ScreenShots/1_1_2.png, id=33, 1284.8pt x 1027.84pt>
+File: ../ScreenShots/1_1_2.png Graphic file (type png)
+ <use ../ScreenShots/1_1_2.png>
+Package pdftex.def Info: ../ScreenShots/1_1_2.png used on input line 93.
+(pdftex.def)             Requested size: 231.25401pt x 185.00322pt.
+ <../ScreenShots/1_2_1.png, id=34, 1284.8pt x 1027.84pt>
+File: ../ScreenShots/1_2_1.png Graphic file (type png)
+ <use ../ScreenShots/1_2_1.png>
+Package pdftex.def Info: ../ScreenShots/1_2_1.png used on input line 100.
+(pdftex.def)             Requested size: 231.25401pt x 185.00322pt.
+ [8 <../ScreenShots/1_1_2.png> <../ScreenShots/1_2_1.png>] <../ScreenShots/1_2_2.png, id=40, 1284.8pt x 1027.84pt>
+File: ../ScreenShots/1_2_2.png Graphic file (type png)
+ <use ../ScreenShots/1_2_2.png>
+Package pdftex.def Info: ../ScreenShots/1_2_2.png used on input line 109.
+(pdftex.def)             Requested size: 231.25401pt x 185.00322pt.
+ <../ScreenShots/1_3_1.png, id=41, 1284.8pt x 1027.84pt>
+File: ../ScreenShots/1_3_1.png Graphic file (type png)
+ <use ../ScreenShots/1_3_1.png>
+Package pdftex.def Info: ../ScreenShots/1_3_1.png used on input line 116.
+(pdftex.def)             Requested size: 231.25401pt x 185.00322pt.
+ [9 <../ScreenShots/1_2_2.png> <../ScreenShots/1_3_1.png>] <../ScreenShots/1_3_2.png, id=47, 1284.8pt x 1027.84pt>
+File: ../ScreenShots/1_3_2.png Graphic file (type png)
+ <use ../ScreenShots/1_3_2.png>
+Package pdftex.def Info: ../ScreenShots/1_3_2.png used on input line 125.
+(pdftex.def)             Requested size: 231.25401pt x 185.00322pt.
+ <../ScreenShots/2_1_1.png, id=48, 1284.8pt x 1027.84pt>
+File: ../ScreenShots/2_1_1.png Graphic file (type png)
+ <use ../ScreenShots/2_1_1.png>
+Package pdftex.def Info: ../ScreenShots/2_1_1.png used on input line 138.
+(pdftex.def)             Requested size: 231.25401pt x 185.00322pt.
+ [10 <../ScreenShots/1_3_2.png> <../ScreenShots/2_1_1.png>] <../ScreenShots/2_1_2.png, id=54, 1284.8pt x 1027.84pt>
+File: ../ScreenShots/2_1_2.png Graphic file (type png)
+ <use ../ScreenShots/2_1_2.png>
+Package pdftex.def Info: ../ScreenShots/2_1_2.png used on input line 147.
+(pdftex.def)             Requested size: 231.25401pt x 185.00322pt.
+ <../ScreenShots/2_2_1.png, id=55, 1284.8pt x 1027.84pt>
+File: ../ScreenShots/2_2_1.png Graphic file (type png)
+ <use ../ScreenShots/2_2_1.png>
+Package pdftex.def Info: ../ScreenShots/2_2_1.png used on input line 154.
+(pdftex.def)             Requested size: 231.25401pt x 185.00322pt.
+ [11 <../ScreenShots/2_1_2.png> <../ScreenShots/2_2_1.png>] <../ScreenShots/2_2_2.png, id=61, 1284.8pt x 1027.84pt>
+File: ../ScreenShots/2_2_2.png Graphic file (type png)
+ <use ../ScreenShots/2_2_2.png>
+Package pdftex.def Info: ../ScreenShots/2_2_2.png used on input line 163.
+(pdftex.def)             Requested size: 231.25401pt x 185.00322pt.
+ <../ScreenShots/2_3_1.png, id=62, 1284.8pt x 1027.84pt>
+File: ../ScreenShots/2_3_1.png Graphic file (type png)
+ <use ../ScreenShots/2_3_1.png>
+Package pdftex.def Info: ../ScreenShots/2_3_1.png used on input line 170.
+(pdftex.def)             Requested size: 231.25401pt x 185.00322pt.
+ [12 <../ScreenShots/2_2_2.png> <../ScreenShots/2_3_1.png>] <../ScreenShots/2_3_2.png, id=68, 1284.8pt x 1027.84pt>
+File: ../ScreenShots/2_3_2.png Graphic file (type png)
+
+<use ../ScreenShots/2_3_2.png>
+Package pdftex.def Info: ../ScreenShots/2_3_2.png used on input line 179.
+(pdftex.def)             Requested size: 231.25401pt x 185.00322pt.
 Missing character: There is no â in font cmbx12!
 Missing character: There is no € in font cmbx12!
 Missing character: There is no ™ in font cmbx12!
 Missing character: There is no â in font cmbx12!
 Missing character: There is no € in font cmbx12!
 Missing character: There is no ™ in font cmbx12!
- [2] [3] (./Lab_07Report.aux) ) 
+ [13 <../ScreenShots/2_3_2.png>] (../Code/add_sub.v
+Overfull \hbox (13.50604pt too wide) in paragraph at lines 14--15
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[14]) (../Code/two_one_mux_behavioral.v [15]) [16] (./Lab_07Report.aux) ) 
 Here is how much of TeX's memory you used:
- 11851 strings out of 493013
- 214733 string characters out of 6136993
- 388590 words of memory out of 5000000
- 15300 multiletter control sequences out of 15000+600000
+ 11973 strings out of 493014
+ 216550 string characters out of 6123238
+ 399730 words of memory out of 5000000
+ 15385 multiletter control sequences out of 15000+600000
  7742 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,6n,43p,10424b,1683s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2016/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmbx12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pf
-b><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Lab_07Report.pdf (3 pages, 68185 bytes).
+ 40i,7n,43p,10422b,1681s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Lab_07Report.pdf (16 pages, 1478594 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 101 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,8 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////
-// Design Name:
 // Module Name:	four_bit_mux_behavioral
-// Author:
+// Author: Joseph Martinsen
 //
 //////////////////////////////////////////////////////
 module four_bit_mux(Y, A, B, S);
@@ -13,7 +12,7 @@ module four_bit_mux(Y, A, B, S);
     input wire [3:0]B;
     input wire S;
 
-
+    // Behavioral logic for 4-bit 2:1 Mux
     always@(A or B or S)
    	 begin
    		 if(S == 1'b0)
