@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.5)  25 OCT 2016 00:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.5)  27 OCT 2016 02:59
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **LabReport.tex
 (./LabReport.tex
@@ -23,7 +22,8 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (/usr/share/texmf-dist/tex/latex/outline/outline.sty
+)
+(/usr/share/texmf-dist/tex/latex/outline/outline.sty
 Package: outline 2002/08/23 Simple Outline Package
 \c@@outlndepth=\count87
 \@outlndepth=\count88
@@ -33,12 +33,14 @@ Package: outline 2002/08/23 Simple Outline Package
 \c@outlniv=\count92
 \c@outlnv=\count93
 \c@outlnvi=\count94
-) (/usr/share/texmf-dist/tex/latex/pmgraph/pmgraph.sty
+)
+(/usr/share/texmf-dist/tex/latex/pmgraph/pmgraph.sty
 \@dimenA=\dimen103
 \@dimenB=\dimen104
 \@dimenC=\dimen105
 \@dimenD=\dimen106
-) (/usr/share/texmf-dist/tex/generic/ulem/ulem.sty
+)
+(/usr/share/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box26
 \UL@hyphenbox=\box27
 \UL@skip=\skip43
@@ -49,15 +51,19 @@ Package: outline 2002/08/23 Simple Outline Package
 \ULC@box=\box28
 Package: ulem 2012/05/18
 \ULdepth=\dimen109
-) (/usr/share/texmf-dist/tex/latex/comment/comment.sty
+)
+(/usr/share/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
- Excluding comment 'comment') (/usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
+
+Excluding comment 'comment') (/usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count96
 ) (/usr/share/texmf-dist/tex/latex/preprint/fullpage.sty
 Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip44
-) (/usr/share/texmf-dist/tex/latex/listings/listings.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
@@ -73,39 +79,50 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \lst@newlines=\count101
 \lst@lineno=\count102
 \lst@maxwidth=\dimen113
- (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count103
 \lst@skipnumbers=\count104
 \lst@framebox=\box30
-) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
- (/usr/share/texmf-dist/tex/latex/graphics/color.sty
+
+(/usr/share/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
- (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 144.
- (/usr/share/texmf-dist/tex/latex/pdftex-def/pdftex.def
+
+(/usr/share/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
- (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count105
-)) (/usr/share/texmf-dist/tex/latex/mdframed/mdframed.sty
+))
+(/usr/share/texmf-dist/tex/latex/mdframed/mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
 
 (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
- (/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
- (/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
- (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -113,9 +130,12 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-))) (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+)))
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2016/05/18 v6512 L3 programming layer (loader) 
- (/usr/share/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2016/05/18 v6512 L3 programming layer (code)
 L3 Module: l3bootstrap 2016/02/12 v6412 L3 Bootstrap code
 L3 Module: l3names 2016/03/11 v6433 L3 Namespace for primitives
@@ -221,7 +241,8 @@ L3 Module: l3candidates 2016/05/13 v6484 L3 Experimental additions to l3kernel
 \l__coffin_scaled_total_height_dim=\dimen143
 \l__coffin_scaled_width_dim=\dimen144
 L3 Module: l3luatex 2016/03/26 v6465 L3 Experimental LuaTeX-specific functions
-) (/usr/share/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+)
+(/usr/share/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2016/03/26 v6465 L3 Experimental driver: PDF mode
 \l__driver_color_stack_int=\count128
 \l__driver_tmp_box=\box46
@@ -232,36 +253,46 @@ Package: xparse 2016/05/18 v6512 L3 Experimental document command parser
 \l__xparse_mandatory_args_int=\count131
 \l__xparse_processor_int=\count132
 \l__xparse_v_nesting_int=\count133
-) (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+)
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count134
-) (/usr/share/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
 Package: zref-abspage 2016/05/16 v2.25 Module abspage for zref (HO)
- (/usr/share/texmf-dist/tex/latex/oberdiek/zref-base.sty
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/zref-base.sty
 Package: zref-base 2016/05/16 v2.25 Module base for zref (HO)
- (/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (/usr/share/texmf-dist/tex/latex/oberdiek/auxhook.sty
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
-) (/usr/share/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
 )
 \c@abspage=\count135
 Package zref Info: New property: abspage on input line 62.
-) (/usr/share/texmf-dist/tex/latex/needspace/needspace.sty
+)
+(/usr/share/texmf-dist/tex/latex/needspace/needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
 \mdf@templength=\skip51
@@ -362,32 +393,24 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \c@mdf@env@ii=\count140
 \c@mdf@zref@counter=\count141
 Package zref Info: New property: mdf@pagevalue on input line 895.
-) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
- (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 96.
 )
 \Gin@req@height=\dimen145
 \Gin@req@width=\dimen146
-)
-Runaway argument?
-{\textbf {Lab 08: Introduction to Sequential Logic} \author {Joseph M\ETC.
-./LabReport.tex:19: Paragraph ended before \title was complete.
-<to be read again> 
-                   \par 
-l.19 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-(./LabReport.aux)
+) (./LabReport.aux)
 \openout1 = `LabReport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -403,7 +426,7 @@ LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 \c@lstlisting=\count142
- (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count143
 \scratchdimen=\dimen147
@@ -420,47 +443,459 @@ LaTeX Font Info:    ... okay on input line 32.
 \AtBeginShipoutBox=\box53
  (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
- (/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
- (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
 ))
-Underfull \hbox (badness 10000) in paragraph at lines 49--51
-
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/share/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2015/06/04 1.6 listings language file
+)
+(/usr/share/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2015/06/04 1.6 listings language file
+) (../code/sr_latch.v
+Overfull \hbox (125.1311pt too wide) in paragraph at lines 2--3
+[][][][][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-
- []
-
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 17.
 [1
 
 {/usr/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 84.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 84.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 84.
- [2] (./LabReport.aux) ) 
+Overfull \hbox (125.1311pt too wide) in paragraph at lines 20--22
+[][][][][] 
+ []
+
+) (../code/d_latch.v
+Overfull \hbox (125.1311pt too wide) in paragraph at lines 2--3
+[][][][][] 
+ []
+
+[2]
+Overfull \hbox (125.1311pt too wide) in paragraph at lines 20--22
+[][][][][] 
+ []
+
+) (../code/d_flip_flop.v
+Overfull \hbox (125.1311pt too wide) in paragraph at lines 2--3
+[][][][][] 
+ []
+
+[3]
+Overfull \hbox (125.1311pt too wide) in paragraph at lines 20--22
+[][][][][] 
+ []
+
+
+Overfull \hbox (82.83118pt too wide) in paragraph at lines 23--25
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (181.531pt too wide) in paragraph at lines 32--34
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[4]
+Overfull \hbox (26.43127pt too wide) in paragraph at lines 40--41
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (../code/d_latch_behavioral.v
+Overfull \hbox (125.1311pt too wide) in paragraph at lines 2--3
+[][][][][] 
+ []
+
+[5]
+Overfull \hbox (125.1311pt too wide) in paragraph at lines 20--21
+[][][][][] 
+ []
+
+) (../code/d_flip_flop_behavioral.v
+Overfull \hbox (125.1311pt too wide) in paragraph at lines 2--3
+[][][][][] 
+ []
+
+[6]
+Overfull \hbox (125.1311pt too wide) in paragraph at lines 20--21
+[][][][][] 
+ []
+
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 29.
+(/usr/share/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 29.
+) (../code/full_adder.v
+Overfull \hbox (125.1311pt too wide) in paragraph at lines 3--4
+[][][][][] 
+ []
+
+[7]
+Overfull \hbox (125.1311pt too wide) in paragraph at lines 21--22
+[][][][][] 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 35.
+(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
+ [8]) (../code/adder_2bit.v
+Overfull \hbox (125.1311pt too wide) in paragraph at lines 2--3
+[][][][][] 
+ []
+
+
+Overfull \hbox (125.1311pt too wide) in paragraph at lines 20--21
+[][][][][] 
+ []
+
+[9]
+Overfull \hbox (5.28131pt too wide) in paragraph at lines 30--32
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (../code/adder_2bit_tb.v
+Overfull \hbox (33.48126pt too wide) in paragraph at lines 3--5
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
+
+Overfull \hbox (12.3313pt too wide) in paragraph at lines 6--7
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (33.48126pt too wide) in paragraph at lines 10--11
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (5.28131pt too wide) in paragraph at lines 17--18
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (61.68121pt too wide) in paragraph at lines 18--19
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (5.28131pt too wide) in paragraph at lines 22--23
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (5.28131pt too wide) in paragraph at lines 23--24
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (5.28131pt too wide) in paragraph at lines 24--25
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[10]
+Overfull \hbox (5.28131pt too wide) in paragraph at lines 25--26
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (12.3313pt too wide) in paragraph at lines 26--27
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (12.3313pt too wide) in paragraph at lines 37--38
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (47.58124pt too wide) in paragraph at lines 39--40
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (139.23108pt too wide) in paragraph at lines 42--43
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (12.3313pt too wide) in paragraph at lines 50--51
+[][][][][][][][][][][][][][][] 
+ []
+
+[11]
+Overfull \hbox (12.3313pt too wide) in paragraph at lines 60--63
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (33.48126pt too wide) in paragraph at lines 63--64
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (12.3313pt too wide) in paragraph at lines 70--73
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (33.48126pt too wide) in paragraph at lines 73--74
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (12.3313pt too wide) in paragraph at lines 80--83
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (33.48126pt too wide) in paragraph at lines 83--84
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[12]
+Overfull \hbox (12.3313pt too wide) in paragraph at lines 90--92
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (33.48126pt too wide) in paragraph at lines 92--93
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (12.3313pt too wide) in paragraph at lines 99--102
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (33.48126pt too wide) in paragraph at lines 102--103
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (12.3313pt too wide) in paragraph at lines 109--112
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (33.48126pt too wide) in paragraph at lines 112--113
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[13]
+Overfull \hbox (12.3313pt too wide) in paragraph at lines 119--122
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (33.48126pt too wide) in paragraph at lines 122--123
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (12.3313pt too wide) in paragraph at lines 129--132
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (33.48126pt too wide) in paragraph at lines 132--133
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (12.3313pt too wide) in paragraph at lines 139--142
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (33.48126pt too wide) in paragraph at lines 142--143
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[14]
+Overfull \hbox (12.3313pt too wide) in paragraph at lines 149--152
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (33.48126pt too wide) in paragraph at lines 152--153
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (12.3313pt too wide) in paragraph at lines 159--162
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (33.48126pt too wide) in paragraph at lines 162--163
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (12.3313pt too wide) in paragraph at lines 169--172
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (33.48126pt too wide) in paragraph at lines 172--173
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (12.3313pt too wide) in paragraph at lines 179--182
+[][][][][][][][][][][][][][][] 
+ []
+
+[15]
+Overfull \hbox (12.3313pt too wide) in paragraph at lines 189--191
+[][][][][][][][][][][][][][][] 
+ []
+
+) (../code/adder_synchronous.v
+Overfull \hbox (125.1311pt too wide) in paragraph at lines 2--3
+[][][][][] 
+ []
+
+[16]
+Overfull \hbox (125.1311pt too wide) in paragraph at lines 20--21
+[][][][][] 
+ []
+
+[17])
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+[18] <../Screenshots/sr_latch_tests.png, id=64, 585.18625pt x 283.0575pt>
+File: ../Screenshots/sr_latch_tests.png Graphic file (type png)
+
+<use ../Screenshots/sr_latch_tests.png>
+Package pdftex.def Info: ../Screenshots/sr_latch_tests.png used on input line 7
+9.
+(pdftex.def)             Requested size: 292.5924pt x 141.5284pt.
+ [19 <../Screenshots/sr_latch_tests.png>] <../Screenshots/sr_latch_graph.png, i
+d=71, 1239.63126pt x 807.015pt>
+File: ../Screenshots/sr_latch_graph.png Graphic file (type png)
+
+<use ../Screenshots/sr_latch_graph.png>
+Package pdftex.def Info: ../Screenshots/sr_latch_graph.png used on input line 8
+6.
+(pdftex.def)             Requested size: 247.92186pt x 161.40013pt.
+
+<../Screenshots/sr_latch2_tests.png, id=72, 581.17125pt x 292.09125pt>
+File: ../Screenshots/sr_latch2_tests.png Graphic file (type png)
+
+<use ../Screenshots/sr_latch2_tests.png>
+Package pdftex.def Info: ../Screenshots/sr_latch2_tests.png used on input line 
+93.
+(pdftex.def)             Requested size: 290.58492pt x 146.04526pt.
+ [20 <../Screenshots/sr_latch_graph.png> <../Screenshots/sr_latch2_tests.png>]
+<../Screenshots/sr_latch2_graph.png, id=78, 755.82375pt x 354.32375pt>
+File: ../Screenshots/sr_latch2_graph.png Graphic file (type png)
+
+<use ../Screenshots/sr_latch2_graph.png>
+Package pdftex.def Info: ../Screenshots/sr_latch2_graph.png used on input line 
+102.
+(pdftex.def)             Requested size: 151.16206pt x 70.86348pt.
+
+<../Screenshots/D_latch_tests.png, id=79, 577.15625pt x 240.9pt>
+File: ../Screenshots/D_latch_tests.png Graphic file (type png)
+
+<use ../Screenshots/D_latch_tests.png>
+Package pdftex.def Info: ../Screenshots/D_latch_tests.png used on input line 10
+9.
+(pdftex.def)             Requested size: 288.57741pt x 120.44969pt.
+ [21 <../Screenshots/sr_latch2_graph.png> <../Screenshots/D_latch_tests.png>]
+<../Screenshots/D_latch_graph.png, id=85, 1231.60126pt x 767.86874pt>
+File: ../Screenshots/D_latch_graph.png Graphic file (type png)
+
+<use ../Screenshots/D_latch_graph.png>
+Package pdftex.def Info: ../Screenshots/D_latch_graph.png used on input line 11
+8.
+(pdftex.def)             Requested size: 246.31589pt x 153.57103pt.
+
+<../Screenshots/d_latch_Behavioral_tests.png, id=86, 707.64375pt x 240.9pt>
+File: ../Screenshots/d_latch_Behavioral_tests.png Graphic file (type png)
+
+<use ../Screenshots/d_latch_Behavioral_tests.png>
+Package pdftex.def Info: ../Screenshots/d_latch_Behavioral_tests.png used on in
+put line 125.
+(pdftex.def)             Requested size: 141.52625pt x 48.17914pt.
+ [22 <../Screenshots/D_latch_graph.png> <../Screenshots/d_latch_Behavioral_test
+s.png>]
+<../Screenshots/d_latch_Behavioral_graph.png, id=92, 1232.605pt x 770.88pt>
+File: ../Screenshots/d_latch_Behavioral_graph.png Graphic file (type png)
+
+<use ../Screenshots/d_latch_Behavioral_graph.png>
+Package pdftex.def Info: ../Screenshots/d_latch_Behavioral_graph.png used on in
+put line 134.
+(pdftex.def)             Requested size: 246.51663pt x 154.17326pt.
+
+<../Screenshots/d_flipflip_behavioral_tests.png, id=93, 717.68124pt x 217.81375
+pt>
+File: ../Screenshots/d_flipflip_behavioral_tests.png Graphic file (type png)
+ <use ../Screenshots/d_flipflip_behavioral_tests.png>
+Package pdftex.def Info: ../Screenshots/d_flipflip_behavioral_tests.png used on
+ input line 141.
+(pdftex.def)             Requested size: 143.5337pt x 43.56197pt.
+ [23 <../Screenshots/d_latch_Behavioral_graph.png> <../Screenshots/d_flipflip_b
+ehavioral_tests.png>]
+<../Screenshots/d_flipflip_behavioral_graph.png, id=99, 1237.62375pt x 773.8912
+5pt>
+File: ../Screenshots/d_flipflip_behavioral_graph.png Graphic file (type png)
+ <use ../Screenshots/d_flipflip_behavioral_graph.png>
+Package pdftex.def Info: ../Screenshots/d_flipflip_behavioral_graph.png used on
+ input line 150.
+(pdftex.def)             Requested size: 247.52037pt x 154.7755pt.
+ [24 <../Screenshots/d_flipflip_behavioral_graph.png>] [25] (./LabReport.aux) )
+ 
 Here is how much of TeX's memory you used:
- 11497 strings out of 493014
- 209098 string characters out of 6123238
- 358681 words of memory out of 5000000
- 14961 multiletter control sequences out of 15000+600000
+ 12017 strings out of 493014
+ 217616 string characters out of 6123238
+ 406170 words of memory out of 5000000
+ 15424 multiletter control sequences out of 15000+600000
  7742 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,6n,42p,10419b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on LabReport.pdf (2 pages, 44986 bytes).
+ 40i,7n,43p,10419b,1681s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i12.pfb>
+Output written on LabReport.pdf (25 pages, 298431 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
- 15 compressed objects within 1 object stream
+ 126 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
