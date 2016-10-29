@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.5)  23 OCT 2016 21:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.5)  29 OCT 2016 15:27
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **titlePage.tex
 (./titlePage.tex
@@ -23,7 +22,8 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (/usr/share/texmf-dist/tex/latex/outline/outline.sty
+)
+(/usr/share/texmf-dist/tex/latex/outline/outline.sty
 Package: outline 2002/08/23 Simple Outline Package
 \c@@outlndepth=\count87
 \@outlndepth=\count88
@@ -33,12 +33,14 @@ Package: outline 2002/08/23 Simple Outline Package
 \c@outlniv=\count92
 \c@outlnv=\count93
 \c@outlnvi=\count94
-) (/usr/share/texmf-dist/tex/latex/pmgraph/pmgraph.sty
+)
+(/usr/share/texmf-dist/tex/latex/pmgraph/pmgraph.sty
 \@dimenA=\dimen103
 \@dimenB=\dimen104
 \@dimenC=\dimen105
 \@dimenD=\dimen106
-) (/usr/share/texmf-dist/tex/generic/ulem/ulem.sty
+)
+(/usr/share/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box26
 \UL@hyphenbox=\box27
 \UL@skip=\skip43
@@ -49,9 +51,11 @@ Package: outline 2002/08/23 Simple Outline Package
 \ULC@box=\box28
 Package: ulem 2012/05/18
 \ULdepth=\dimen109
-) (/usr/share/texmf-dist/tex/latex/comment/comment.sty
+)
+(/usr/share/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
- Excluding comment 'comment') (/usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
+
+Excluding comment 'comment') (/usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count96
 ) (/usr/share/texmf-dist/tex/latex/preprint/fullpage.sty
@@ -78,9 +82,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 28.
- [1
 
-{/usr/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}] (./titlePage.aux) ) 
+[1
+
+{/usr/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}] (./titlePage.aux) )
+ 
 Here is how much of TeX's memory you used:
  914 strings out of 493014
  10257 string characters out of 6123238
@@ -89,8 +95,9 @@ Here is how much of TeX's memory you used:
  7088 words of font info for 26 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  23i,6n,19p,171b,193s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on titlePage.pdf (1 page, 24401 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on titlePage.pdf (1 page, 24388 bytes).
 PDF statistics:
  16 PDF objects out of 1000 (max. 8388607)
  10 compressed objects within 1 object stream
