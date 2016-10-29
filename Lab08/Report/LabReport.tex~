@@ -10,11 +10,11 @@
 \usepackage{mdframed}
 \usepackage{listings}
 \usepackage{graphicx}
-\graphicspath{ {../} }
+\graphicspath{ {../Screenshots/} }
 \renewcommand{\lstlistingname}{Code Block}% Listing -> Algorithm
 \renewcommand{\lstlistlistingname}{List of \lstlistingname s}% List of Listings -> List of Algorithms
-\title{\textbf{Lab 08: Introduction to Sequential Logic}
-\author{Joseph Martinsen \\ ECEN 248-510 \\ TA: Michael Bass}
+%\title{\textbf{Lab 08: Introduction to Sequential Logic}
+%\author{Joseph Martinsen \\ ECEN 248-510 \\ TA: Michael Bass}
 \date{\today}
 
 \linespread{1.5}
@@ -32,39 +32,254 @@
 \begin{document}
 \section*{Objective}
 
-\hspace{15pt}In this lab, students were introduced to latches and flip-flops. These sequential logic
-circuits will be described in first structual Verilog and then behavioral Verilog.
-Synchronous sequential circuits will also be introduced towards the end of the lab.
-Delays will also be added to logic gates for the first time while implementing a
-clock signal. Finally, students will design one block of code that will include
-both flip-flops and combinational logic (full adder) to simulate synchronous logic.
+  \hspace{15pt}In this lab, students were introduced to latches and flip-flops. These sequential logic
+  circuits will be described in first structual Verilog and then behavioral Verilog.
+  Synchronous sequential circuits will also be introduced towards the end of the lab.
+  Delays will also be added to logic gates for the first time while implementing a
+  clock signal. Finally, students will design one block of code that will include
+  both flip-flops and combinational logic (full adder) to simulate synchronous logic.
 
 \section*{Design}
 
-% Verilog code template
-% \lstinputlisting[language=Verilog,,caption=4-Bit ALU ]{../code name.v}
+%   Exp 1.
+% 	    sr_latch
+%
+% 	    d_latch
+%
+% 	    d_flip_flop
+%
+% 	    d_latch_behavioral
+%
+%     	d_flip_flop_behavioral
+%
+%   Exp 2.
+%
+% 	  full_adder % Added time delay element
+%
+% 	  adder_2bit
+%
+% 	  adder_2bit_tb % My edits in the code
+%
+% 	  adder_synchronous
+%
+
+% sr_latch_tests.png
+% sr_latch_graph.png
+%
+% sr_latch2_tests.png
+% sr_latch2_graph.png
+%
+% D_latch_tests.png
+% D_latch_graph.png
+%
+% d_latch_Behavioral_tests.png
+% d_latch_Behavioral_graph.png
+%
+% d_flipflip_behavioral_tests.png
+% d_flipflip_behavioral_graph.png
+%
+% adder2bit_tests.png
+% adder2bit_graph.png
+%
+% asyc40_tests.png
+% asyc40_graph.png
+%
+% asyc_18_tests.png
+% asyc_18_graph.png
+%
+% asyc_20_tests.png
+% asyc_20_graph.png
+%
+%
+% Need:
+%
+% adder_sync_graph.png
+% adder_sync_tests.png
+%
+% Master_Slave_D_flip_flop_graph.png
+% Master_Slave_D_flip_flop_tests.png
+
+  \textbf{Experiment 1}
+
+  \lstinputlisting[language=Verilog,,caption=SR-Latch ]{../code/sr_latch.v}
+
+  \lstinputlisting[language=Verilog,,caption=D-Latch ]{../code/d_latch.v}
+
+  \lstinputlisting[language=Verilog,,caption=D-FLip FLop ]{../code/d_flip_flop.v}
+
+  \lstinputlisting[language=Verilog,,caption=D-Latch Behavioral ]{../code/d_latch_behavioral.v}
+
+  \lstinputlisting[language=Verilog,,caption=D-Flip Flop Behavioral ]{../code/d_flip_flop_behavioral.v}
+
+  \textbf{Experiment 2}
+
+  \lstinputlisting[language=Verilog,,caption=Full Adder Edit ]{../code/full_adder.v}
+
+  \lstinputlisting[language=Verilog,,caption=2-Bit Adder ]{../code/adder_2bit.v}
+
+  \lstinputlisting[language=Verilog,,caption=2-Bit Adder Test Bench ]{../code/adder_2bit_tb.v}
+
+  \lstinputlisting[language=Verilog,,caption=Adder Synchronous ]{../code/adder_synchronous.v}
 
 \section*{Results}
 
-Explain the 2 unit delay to 4 units and explain the results of the simulation
-(Experiment 1 1.e) \\
+  Explain the 2 unit delay to 4 units and explain the results of the simulation
+  (Experiment 1 1.e) \\
 
-(Experiment 1 3.b) Do the latches behave as expected? Why or why not? \\
+  (Experiment 1 3.b) Do the latches behave as expected? Why or why not? \\
 
-(Experiment 1 4.b) Compare the waveforms you captured from the behavioral Verilog
-to those captured from the structual. Are they different? If so, how?
+  (Experiment 1 4.b) Compare the waveforms you captured from the behavioral Verilog
+  to those captured from the structual. Are they different? If so, how?
 
-% Figure with caption
-% \begin{figure}[h]
-%   \begin{center}
-%     \includegraphics[scale=1]{2_1MuxPlot.png}
-%     \caption{\textit{2-Bit 2:1 MUX Plots}}
-%   \end{center}
-% \end{figure}
+  \textbf{Experiment 1}
+\newpage
+  \begin{figure}[h]
+    \begin{center}
+      \includegraphics[scale=0.5]{sr_latch_tests.png}
+      \caption{\textit{SR Latch Test Results}}
+    \end{center}
+  \end{figure}
+  \newpage
+  \begin{figure}[h]
+    \begin{center}
+      \includegraphics[scale=0.2]{sr_latch_graph.png}
+      \caption{\textit{SR Latch Graph}}
+    \end{center}
+  \end{figure}
+  
+  \begin{figure}[h]
+    \begin{center}
+      \includegraphics[scale=0.5]{sr_latch2_tests.png}
+      \caption{\textit{SR Latch2 Test Results}}
+    \end{center}
+  \end{figure}
+  
+  \newpage
+  
+  \begin{figure}[h]
+    \begin{center}
+      \includegraphics[scale=0.2]{sr_latch2_graph.png}
+      \caption{\textit{SR Latch2 Graph}}
+    \end{center}
+  \end{figure}
+  
+  \begin{figure}[h]
+    \begin{center}
+      \includegraphics[scale=0.5]{D_latch_tests.png}
+      \caption{\textit{D Latch Test Results}}
+    \end{center}
+  \end{figure}  
+  
+  \newpage
+  
+  \begin{figure}[h]
+    \begin{center}
+      \includegraphics[scale=0.2]{D_latch_graph.png}
+      \caption{\textit{D Latch Graph}}
+    \end{center}
+  \end{figure}
 
+  \begin{figure}[h]
+    \begin{center}
+      \includegraphics[scale=0.2]{d_latch_Behavioral_tests.png}
+      \caption{\textit{D Latch Behavioral Test Results}}
+    \end{center}
+  \end{figure}
+  
+  \newpage
+  
+  \begin{figure}[h]
+    \begin{center}
+      \includegraphics[scale=0.2]{d_latch_Behavioral_graph.png}
+      \caption{\textit{D Latch Behavioral Graph}}
+    \end{center}
+  \end{figure}
 
+  \begin{figure}[h]
+    \begin{center}
+      \includegraphics[scale=0.2]{d_flipflip_behavioral_tests.png}
+      \caption{\textit{D Flip Flop Behavioral Test Results}}
+    \end{center}
+  \end{figure}
+  
+  \newpage
+  
+  \begin{figure}[h]
+    \begin{center}
+      \includegraphics[scale=0.2]{d_flipflip_behavioral_graph.png}
+      \caption{\textit{D Flip Flop Behavioral Graph}}
+    \end{center}
+  \end{figure}
+  
+  \textbf{Experiment 2}
+    %tested against user created test bench
+  \begin{figure}[h]
+    \begin{center}
+      \includegraphics[scale=0.2]{adder2bit_tests.png}
+      \caption{\textit{2-bit Adder Test Results}}
+    \end{center}
+  \end{figure}
+  
+  \newpage
+  
+  \begin{figure}[h]
+    \begin{center}
+      \includegraphics[scale=0.2]{adder2bit_graph.png}
+      \caption{\textit{Adder 2 bit Graph}}
+    \end{center}
+  \end{figure}
+  
+  \begin{figure}[h]
+    \begin{center}
+      \includegraphics[scale=0.2]{asyc40_tests.png}
+      \caption{\textit{Asyc 40 Tests}}
+    \end{center}
+  \end{figure}
+  
+  \newpage
+
+  \begin{figure}[h]
+    \begin{center}
+      \includegraphics[scale=0.2]{asyc40_graph.png}
+      \caption{\textit{Asyc 40 Graph}}
+    \end{center}
+  \end{figure}
+  
+  \begin{figure}[h]
+    \begin{center}
+      \includegraphics[scale=0.2]{asyc_18_tests.png}
+      \caption{\textit{Asyc 18 Tests}}
+    \end{center}
+  \end{figure}
+  
+  \newpage
+  
+  \begin{figure}[h]
+    \begin{center}
+      \includegraphics[scale=0.2]{asyc_18_graph.png}
+      \caption{\textit{Asyc 18 Graph}}
+    \end{center}
+  \end{figure}
+  
+  \begin{figure}[h]
+    \begin{center}
+      \includegraphics[scale=0.2]{asyc_20_tests.png}
+      \caption{\textit{Asyc 20 Tests}}
+    \end{center}
+  \end{figure}
+  
+  \newpage
+  
+  \begin{figure}[h]
+    \begin{center}
+      \includegraphics[scale=0.2]{asyc_20_graph.png}
+      \caption{\textit{Asyc 20 Graph}}
+    \end{center}
+  \end{figure}
+
+  \newpage
+  
 \section*{Conclutions}
-
 
 \section*{Questions}
 

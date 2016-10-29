@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.5)  27 OCT 2016 02:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.5)  29 OCT 2016 15:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -456,6 +456,13 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 107.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 107.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 107.
+
 (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -465,437 +472,225 @@ File: lstlang2.sty 2015/06/04 1.6 listings language file
 (/usr/share/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2015/06/04 1.6 listings language file
 ) (../code/sr_latch.v
-Overfull \hbox (125.1311pt too wide) in paragraph at lines 2--3
-[][][][][] 
- []
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 17.
 [1
 
-{/usr/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (125.1311pt too wide) in paragraph at lines 20--22
-[][][][][] 
- []
+{/usr/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
+(../code/d_latch.v [2]) (../code/d_flip_flop.v [3])
+(../code/d_latch_behavioral.v [4]) (../code/d_flip_flop_behavioral.v
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 18.
 
-) (../code/d_latch.v
-Overfull \hbox (125.1311pt too wide) in paragraph at lines 2--3
-[][][][][] 
- []
-
-[2]
-Overfull \hbox (125.1311pt too wide) in paragraph at lines 20--22
-[][][][][] 
- []
-
-) (../code/d_flip_flop.v
-Overfull \hbox (125.1311pt too wide) in paragraph at lines 2--3
-[][][][][] 
- []
-
-[3]
-Overfull \hbox (125.1311pt too wide) in paragraph at lines 20--22
-[][][][][] 
- []
-
-
-Overfull \hbox (82.83118pt too wide) in paragraph at lines 23--25
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (181.531pt too wide) in paragraph at lines 32--34
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[4]
-Overfull \hbox (26.43127pt too wide) in paragraph at lines 40--41
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) (../code/d_latch_behavioral.v
-Overfull \hbox (125.1311pt too wide) in paragraph at lines 2--3
-[][][][][] 
- []
-
-[5]
-Overfull \hbox (125.1311pt too wide) in paragraph at lines 20--21
-[][][][][] 
- []
-
-) (../code/d_flip_flop_behavioral.v
-Overfull \hbox (125.1311pt too wide) in paragraph at lines 2--3
-[][][][][] 
- []
-
-[6]
-Overfull \hbox (125.1311pt too wide) in paragraph at lines 20--21
-[][][][][] 
- []
-
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 29.
 (/usr/share/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 29.
-) (../code/full_adder.v
-Overfull \hbox (125.1311pt too wide) in paragraph at lines 3--4
-[][][][][] 
- []
-
-[7]
-Overfull \hbox (125.1311pt too wide) in paragraph at lines 21--22
-[][][][][] 
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 35.
-(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 18.
+ [5]) (../code/full_adder.v
+[6]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 22.
+ (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
- [8]) (../code/adder_2bit.v
-Overfull \hbox (125.1311pt too wide) in paragraph at lines 2--3
-[][][][][] 
- []
-
-
-Overfull \hbox (125.1311pt too wide) in paragraph at lines 20--21
-[][][][][] 
- []
-
-[9]
-Overfull \hbox (5.28131pt too wide) in paragraph at lines 30--32
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) (../code/adder_2bit_tb.v
-Overfull \hbox (33.48126pt too wide) in paragraph at lines 3--5
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
+) (../code/adder_2bit.v)
+[7] (../code/adder_2bit_tb.v
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
-
-Overfull \hbox (12.3313pt too wide) in paragraph at lines 6--7
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (33.48126pt too wide) in paragraph at lines 10--11
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (5.28131pt too wide) in paragraph at lines 17--18
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (61.68121pt too wide) in paragraph at lines 18--19
-[][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (5.28131pt too wide) in paragraph at lines 22--23
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (5.28131pt too wide) in paragraph at lines 23--24
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (5.28131pt too wide) in paragraph at lines 24--25
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[10]
-Overfull \hbox (5.28131pt too wide) in paragraph at lines 25--26
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (12.3313pt too wide) in paragraph at lines 26--27
-[][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (12.3313pt too wide) in paragraph at lines 37--38
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (47.58124pt too wide) in paragraph at lines 39--40
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (139.23108pt too wide) in paragraph at lines 42--43
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (12.3313pt too wide) in paragraph at lines 50--51
-[][][][][][][][][][][][][][][] 
- []
-
-[11]
-Overfull \hbox (12.3313pt too wide) in paragraph at lines 60--63
-[][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (33.48126pt too wide) in paragraph at lines 63--64
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (12.3313pt too wide) in paragraph at lines 70--73
-[][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (33.48126pt too wide) in paragraph at lines 73--74
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (12.3313pt too wide) in paragraph at lines 80--83
-[][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (33.48126pt too wide) in paragraph at lines 83--84
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[12]
-Overfull \hbox (12.3313pt too wide) in paragraph at lines 90--92
-[][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (33.48126pt too wide) in paragraph at lines 92--93
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (12.3313pt too wide) in paragraph at lines 99--102
-[][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (33.48126pt too wide) in paragraph at lines 102--103
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (12.3313pt too wide) in paragraph at lines 109--112
-[][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (33.48126pt too wide) in paragraph at lines 112--113
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[13]
-Overfull \hbox (12.3313pt too wide) in paragraph at lines 119--122
-[][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (33.48126pt too wide) in paragraph at lines 122--123
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (12.3313pt too wide) in paragraph at lines 129--132
-[][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (33.48126pt too wide) in paragraph at lines 132--133
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (12.3313pt too wide) in paragraph at lines 139--142
-[][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (33.48126pt too wide) in paragraph at lines 142--143
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[14]
-Overfull \hbox (12.3313pt too wide) in paragraph at lines 149--152
-[][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (33.48126pt too wide) in paragraph at lines 152--153
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (12.3313pt too wide) in paragraph at lines 159--162
-[][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (33.48126pt too wide) in paragraph at lines 162--163
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (12.3313pt too wide) in paragraph at lines 169--172
-[][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (33.48126pt too wide) in paragraph at lines 172--173
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (12.3313pt too wide) in paragraph at lines 179--182
-[][][][][][][][][][][][][][][] 
- []
-
-[15]
-Overfull \hbox (12.3313pt too wide) in paragraph at lines 189--191
-[][][][][][][][][][][][][][][] 
- []
-
-) (../code/adder_synchronous.v
-Overfull \hbox (125.1311pt too wide) in paragraph at lines 2--3
-[][][][][] 
- []
-
-[16]
-Overfull \hbox (125.1311pt too wide) in paragraph at lines 20--21
-[][][][][] 
- []
-
-[17])
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-
- []
-
-[18] <../Screenshots/sr_latch_tests.png, id=64, 585.18625pt x 283.0575pt>
+ [8] [9] [10] [11] [12]) [13]
+(../code/adder_synchronous.v [14])
+<../Screenshots/sr_latch_tests.png, id=53, 585.18625pt x 283.0575pt>
 File: ../Screenshots/sr_latch_tests.png Graphic file (type png)
 
 <use ../Screenshots/sr_latch_tests.png>
-Package pdftex.def Info: ../Screenshots/sr_latch_tests.png used on input line 7
-9.
-(pdftex.def)             Requested size: 292.5924pt x 141.5284pt.
- [19 <../Screenshots/sr_latch_tests.png>] <../Screenshots/sr_latch_graph.png, i
-d=71, 1239.63126pt x 807.015pt>
+Package pdftex.def Info: ../Screenshots/sr_latch_tests.png used on input line 1
+79.
+(pdftex.def)             Requested size: 409.62758pt x 198.13889pt.
+ [15 <../Screenshots/sr_latch_tests.png>] <../Screenshots/sr_latch_graph.png, i
+d=59, 1239.63126pt x 807.015pt>
 File: ../Screenshots/sr_latch_graph.png Graphic file (type png)
 
 <use ../Screenshots/sr_latch_graph.png>
-Package pdftex.def Info: ../Screenshots/sr_latch_graph.png used on input line 8
-6.
-(pdftex.def)             Requested size: 247.92186pt x 161.40013pt.
+Package pdftex.def Info: ../Screenshots/sr_latch_graph.png used on input line 1
+86.
+(pdftex.def)             Requested size: 371.89224pt x 242.10637pt.
 
-<../Screenshots/sr_latch2_tests.png, id=72, 581.17125pt x 292.09125pt>
+<../Screenshots/sr_latch2_tests.png, id=60, 581.17125pt x 292.09125pt>
 File: ../Screenshots/sr_latch2_tests.png Graphic file (type png)
 
 <use ../Screenshots/sr_latch2_tests.png>
 Package pdftex.def Info: ../Screenshots/sr_latch2_tests.png used on input line 
-93.
-(pdftex.def)             Requested size: 290.58492pt x 146.04526pt.
- [20 <../Screenshots/sr_latch_graph.png> <../Screenshots/sr_latch2_tests.png>]
-<../Screenshots/sr_latch2_graph.png, id=78, 755.82375pt x 354.32375pt>
+196.
+(pdftex.def)             Requested size: 308.01929pt x 154.8076pt.
+ [16 <../Screenshots/sr_latch_graph.png> <../Screenshots/sr_latch2_tests.png>]
+<../Screenshots/sr_latch2_graph.png, id=66, 755.82375pt x 354.32375pt>
 File: ../Screenshots/sr_latch2_graph.png Graphic file (type png)
 
 <use ../Screenshots/sr_latch2_graph.png>
 Package pdftex.def Info: ../Screenshots/sr_latch2_graph.png used on input line 
-102.
-(pdftex.def)             Requested size: 151.16206pt x 70.86348pt.
+205.
+(pdftex.def)             Requested size: 302.32414pt x 141.72697pt.
 
-<../Screenshots/D_latch_tests.png, id=79, 577.15625pt x 240.9pt>
+<../Screenshots/D_latch_tests.png, id=67, 577.15625pt x 240.9pt>
 File: ../Screenshots/D_latch_tests.png Graphic file (type png)
 
 <use ../Screenshots/D_latch_tests.png>
-Package pdftex.def Info: ../Screenshots/D_latch_tests.png used on input line 10
+Package pdftex.def Info: ../Screenshots/D_latch_tests.png used on input line 21
 9.
-(pdftex.def)             Requested size: 288.57741pt x 120.44969pt.
- [21 <../Screenshots/sr_latch2_graph.png> <../Screenshots/D_latch_tests.png>]
-<../Screenshots/D_latch_graph.png, id=85, 1231.60126pt x 767.86874pt>
+(pdftex.def)             Requested size: 404.0066pt x 168.62883pt.
+ [17 <../Screenshots/sr_latch2_graph.png> <../Screenshots/D_latch_tests.png>]
+<../Screenshots/D_latch_graph.png, id=73, 1231.60126pt x 767.86874pt>
 File: ../Screenshots/D_latch_graph.png Graphic file (type png)
 
 <use ../Screenshots/D_latch_graph.png>
-Package pdftex.def Info: ../Screenshots/D_latch_graph.png used on input line 11
+Package pdftex.def Info: ../Screenshots/D_latch_graph.png used on input line 22
 8.
 (pdftex.def)             Requested size: 246.31589pt x 153.57103pt.
 
-<../Screenshots/d_latch_Behavioral_tests.png, id=86, 707.64375pt x 240.9pt>
+<../Screenshots/Master_Slave_D_flip_flop_tests.png, id=74, 594.22pt x 219.82124
+pt>
+File: ../Screenshots/Master_Slave_D_flip_flop_tests.png Graphic file (type png)
+
+ <use ../Screenshots/Master_Slave_D_flip_flop_tests.png>
+Package pdftex.def Info: ../Screenshots/Master_Slave_D_flip_flop_tests.png used
+ on input line 238.
+(pdftex.def)             Requested size: 415.95117pt x 153.87381pt.
+ [18 <../Screenshots/D_latch_graph.png> <../Screenshots/Master_Slave_D_flip_flo
+p_tests.png>]
+<../Screenshots/Master_Slave_D_flip_flop_graph.png, id=80, 1237.62375pt x 770.8
+8pt>
+File: ../Screenshots/Master_Slave_D_flip_flop_graph.png Graphic file (type png)
+
+ <use ../Screenshots/Master_Slave_D_flip_flop_graph.png>
+Package pdftex.def Info: ../Screenshots/Master_Slave_D_flip_flop_graph.png used
+ on input line 247.
+(pdftex.def)             Requested size: 396.0477pt x 246.68665pt.
+
+<../Screenshots/d_latch_Behavioral_tests.png, id=81, 707.64375pt x 240.9pt>
 File: ../Screenshots/d_latch_Behavioral_tests.png Graphic file (type png)
 
 <use ../Screenshots/d_latch_Behavioral_tests.png>
 Package pdftex.def Info: ../Screenshots/d_latch_Behavioral_tests.png used on in
-put line 125.
-(pdftex.def)             Requested size: 141.52625pt x 48.17914pt.
- [22 <../Screenshots/D_latch_graph.png> <../Screenshots/d_latch_Behavioral_test
-s.png>]
-<../Screenshots/d_latch_Behavioral_graph.png, id=92, 1232.605pt x 770.88pt>
+put line 259.
+(pdftex.def)             Requested size: 424.58952pt x 144.5411pt.
+ [19 <../Screenshots/Master_Slave_D_flip_flop_graph.png> <../Screenshots/d_latc
+h_Behavioral_tests.png>]
+<../Screenshots/d_latch_Behavioral_graph.png, id=88, 1232.605pt x 770.88pt>
 File: ../Screenshots/d_latch_Behavioral_graph.png Graphic file (type png)
 
 <use ../Screenshots/d_latch_Behavioral_graph.png>
 Package pdftex.def Info: ../Screenshots/d_latch_Behavioral_graph.png used on in
-put line 134.
-(pdftex.def)             Requested size: 246.51663pt x 154.17326pt.
+put line 268.
+(pdftex.def)             Requested size: 369.78435pt x 231.26578pt.
 
-<../Screenshots/d_flipflip_behavioral_tests.png, id=93, 717.68124pt x 217.81375
+<../Screenshots/d_flipflip_behavioral_tests.png, id=89, 717.68124pt x 217.81375
 pt>
 File: ../Screenshots/d_flipflip_behavioral_tests.png Graphic file (type png)
  <use ../Screenshots/d_flipflip_behavioral_tests.png>
 Package pdftex.def Info: ../Screenshots/d_flipflip_behavioral_tests.png used on
- input line 141.
-(pdftex.def)             Requested size: 143.5337pt x 43.56197pt.
- [23 <../Screenshots/d_latch_Behavioral_graph.png> <../Screenshots/d_flipflip_b
+ input line 275.
+(pdftex.def)             Requested size: 394.7259pt x 119.79791pt.
+ [20 <../Screenshots/d_latch_Behavioral_graph.png> <../Screenshots/d_flipflip_b
 ehavioral_tests.png>]
-<../Screenshots/d_flipflip_behavioral_graph.png, id=99, 1237.62375pt x 773.8912
+<../Screenshots/d_flipflip_behavioral_graph.png, id=95, 1237.62375pt x 773.8912
 5pt>
 File: ../Screenshots/d_flipflip_behavioral_graph.png Graphic file (type png)
  <use ../Screenshots/d_flipflip_behavioral_graph.png>
 Package pdftex.def Info: ../Screenshots/d_flipflip_behavioral_graph.png used on
- input line 150.
-(pdftex.def)             Requested size: 247.52037pt x 154.7755pt.
- [24 <../Screenshots/d_flipflip_behavioral_graph.png>] [25] (./LabReport.aux) )
- 
+ input line 284.
+(pdftex.def)             Requested size: 433.1748pt x 270.866pt.
+
+<../Screenshots/adder2bit_tests.png, id=96, 671.50874pt x 413.545pt>
+File: ../Screenshots/adder2bit_tests.png Graphic file (type png)
+
+<use ../Screenshots/adder2bit_tests.png>
+Package pdftex.def Info: ../Screenshots/adder2bit_tests.png used on input line 
+300.
+(pdftex.def)             Requested size: 201.45418pt x 124.06445pt.
+ [21 <../Screenshots/d_flipflip_behavioral_graph.png> <../Screenshots/adder2bit
+_tests.png>]
+<../Screenshots/adder2bit_graph.png, id=102, 1236.62pt x 773.89125pt>
+File: ../Screenshots/adder2bit_graph.png Graphic file (type png)
+
+<use ../Screenshots/adder2bit_graph.png>
+Package pdftex.def Info: ../Screenshots/adder2bit_graph.png used on input line 
+309.
+(pdftex.def)             Requested size: 247.31961pt x 154.7755pt.
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ˜ in font cmr12!
+
+<../Screenshots/asyc40_tests.png, id=103, 744.7825pt x 430.60875pt>
+File: ../Screenshots/asyc40_tests.png Graphic file (type png)
+
+<use ../Screenshots/asyc40_tests.png>
+Package pdftex.def Info: ../Screenshots/asyc40_tests.png used on input line 320
+.
+(pdftex.def)             Requested size: 372.39034pt x 215.30383pt.
+ [22 <../Screenshots/adder2bit_graph.png> <../Screenshots/asyc40_tests.png>]
+<../Screenshots/asyc40_graph.png, id=109, 1231.60126pt x 773.89125pt>
+File: ../Screenshots/asyc40_graph.png Graphic file (type png)
+
+<use ../Screenshots/asyc40_graph.png>
+Package pdftex.def Info: ../Screenshots/asyc40_graph.png used on input line 329
+.
+(pdftex.def)             Requested size: 369.48323pt x 232.16916pt.
+
+<../Screenshots/asyc_18_tests.png, id=110, 728.7225pt x 427.5975pt>
+File: ../Screenshots/asyc_18_tests.png Graphic file (type png)
+
+<use ../Screenshots/asyc_18_tests.png>
+Package pdftex.def Info: ../Screenshots/asyc_18_tests.png used on input line 33
+6.
+(pdftex.def)             Requested size: 255.05669pt x 149.66136pt.
+ [23 <../Screenshots/asyc40_graph.png> <../Screenshots/asyc_18_tests.png>]
+<../Screenshots/asyc_18_graph.png, id=116, 885.3075pt x 251.94125pt>
+File: ../Screenshots/asyc_18_graph.png Graphic file (type png)
+
+<use ../Screenshots/asyc_18_graph.png>
+Package pdftex.def Info: ../Screenshots/asyc_18_graph.png used on input line 34
+5.
+(pdftex.def)             Requested size: 354.11671pt x 100.7747pt.
+
+<../Screenshots/asyc_20_tests.png, id=117, 728.7225pt x 421.575pt>
+File: ../Screenshots/asyc_20_tests.png Graphic file (type png)
+
+<use ../Screenshots/asyc_20_tests.png>
+Package pdftex.def Info: ../Screenshots/asyc_20_tests.png used on input line 35
+2.
+(pdftex.def)             Requested size: 364.36035pt x 210.78697pt.
+ [24 <../Screenshots/asyc_18_graph.png> <../Screenshots/asyc_20_tests.png>]
+<../Screenshots/asyc_20_graph.png, id=123, 1237.62375pt x 765.86125pt>
+File: ../Screenshots/asyc_20_graph.png Graphic file (type png)
+
+<use ../Screenshots/asyc_20_graph.png>
+Package pdftex.def Info: ../Screenshots/asyc_20_graph.png used on input line 36
+1.
+(pdftex.def)             Requested size: 371.29pt x 229.76015pt.
+
+Overfull \hbox (70.39317pt too wide) in paragraph at lines 366--368
+[]\OT1/cmr/m/n/12 The test passed for 40 and 20 and failed for 18 and 19. Thus 
+the shor-est $`\OML/cmm/m/it/12 defineCLOCKPERIOD \OT1/cmr/m/n/12 =
+ []
+
+[25 <../Screenshots/asyc_20_graph.png>] [26] [27] (./LabReport.aux) ) 
 Here is how much of TeX's memory you used:
- 12017 strings out of 493014
- 217616 string characters out of 6123238
- 406170 words of memory out of 5000000
- 15424 multiletter control sequences out of 15000+600000
- 7742 words of font info for 28 fonts, out of 8000000 for 9000
+ 12069 strings out of 493014
+ 219460 string characters out of 6123238
+ 404428 words of memory out of 5000000
+ 15465 multiletter control sequences out of 15000+600000
+ 8101 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,7n,43p,10419b,1681s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-i12.pfb>
-Output written on LabReport.pdf (25 pages, 298431 bytes).
+</usr/shar
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on LabReport.pdf (27 pages, 605786 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 156 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

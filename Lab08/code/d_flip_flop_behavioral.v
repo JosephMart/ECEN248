@@ -1,33 +1,22 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    16:06:56 10/24/2016 
-// Design Name: 
-// Module Name:    d_flip_flop_behavioral 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
+////////////////////////////////////////////////////////////////
+// Create Date: 16:06:56 10/24/2016
+// Module Name: d_flip_flop_behavioral
+// Author Name: Joseph Martinsen
 //
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
 module d_flip_flop_behavioral(
+		// Declare wires
 		output reg Q,
 		output wire notQ,
 		input wire D,
 		input wire Clk
     );
 
+	// Logic for Positive Edge of Clock
 	always@(posedge Clk)
 		Q <= D;
-		
-	assign notQ = ~Q;
 
+	// Catch all Case
+	assign notQ = ~Q;
 endmodule
