@@ -33,7 +33,7 @@
 \section*{Objective}
 
   \hspace{15pt}In this lab, students were introduced to latches and flip-flops. These sequential logic
-  circuits will be described in first structual Verilog and then behavioral Verilog.
+  circuits will be described in first structural Verilog and then behavioral Verilog.
   Synchronous sequential circuits will also be introduced towards the end of the lab.
   Delays will also be added to logic gates for the first time while implementing a
   clock signal. Finally, students will design one block of code that will include
@@ -101,9 +101,9 @@
 
   \textbf{Experiment 1}
   
-  To start off the experiment, a structual Verilog SR-Latch was designed. Two nanoseconds
+  To start off the experiment, a structural Verilog SR-Latch was designed. Two nanoseconds
   delays were added to the gates. After that, the delay was increased to four nanoseconds.
-  Below is the code for which the four nanosecod delay was designed for. For a two
+  Below is the code for which the four nanosecond delay was designed for. For a two
   nanosecond design, instead of \#$4$, there was \#$2$.
   
   \lstinputlisting[language=Verilog,,caption=SR-Latch ]{../code/sr_latch.v}
@@ -115,14 +115,14 @@
   \lstinputlisting[language=Verilog,,caption=D-Latch]{../code/d_latch.v}
   
   The next part of \textbf{Experiment 1} consisted of designing a D flip-flop in
-  structual Verilog. The design instantiated only two inverter gates and two D-latch
-  modules that were designed earlier in this lab. The design for the structual D
+  structural Verilog. The design instantiated only two inverter gates and two D-latch
+  modules that were designed earlier in this lab. The design for the structural D
   flip-flop.
 
   \lstinputlisting[language=Verilog,,caption=D FLip-FLop ]{../code/d_flip_flop.v}
   
   Next, a behavioral version of the D-latch and D flip-flop was copied and edited from
-  the lab manual. The following designs are below. \textit{Compare the waveforms you captured from the behavioral Verilog to those captured from the
+  the lab manual. The following designs are below. \textit{Compare the wave forms you captured from the behavioral Verilog to those captured from the
 structural Verilog. Are they different? If so, how?}
 
   \lstinputlisting[language=Verilog,,caption=D-Latch Behavioral ]{../code/d_latch_behavioral.v}
@@ -152,7 +152,7 @@ carry adder. \textbf{$20$ns}}
   \lstinputlisting[language=Verilog,,caption=2-Bit Adder Test Bench ]{../code/adder_2bit_tb.v}
   
   In the final part of the lab, Verilog code was created to complete the synchronous
-  aspect of the design. The flip-flops were assumed tob be ideal thus it will not contribute
+  aspect of the design. The flip-flops were assumed to be ideal thus it will not contribute
   to any time delay.
 
   \lstinputlisting[language=Verilog,,caption=Adder Synchronous ]{../code/adder_synchronous.v}
@@ -286,8 +286,8 @@ carry adder. \textbf{$20$ns}}
     \end{center}
   \end{figure}
   
-  The behavioral and structual D flip-flop design looked identical. The
-  structual and behavioral D-latch differed for the first eight nanoseconds
+  The behavioral and structural D flip-flop design looked identical. The
+  structural and behavioral D-latch differed for the first eight nanoseconds
   where Q and notQ were switched.
   
   \textbf{Experiment 2}
@@ -363,12 +363,12 @@ carry adder. \textbf{$20$ns}}
     \end{center}
   \end{figure}
   
-  The test passed for 40 and 20 and failed for 18 and 19. Thus the shorest
+  The test passed for 40 and 20 and failed for 18 and 19. Thus the shortest
   $`define CLOCK PERIOD = 20ns$
   
-\section*{Conclution}
+\section*{Conclusion}
 
-  \hspace{15pt}In conclution, this lab exposed me to test bench code by
+  \hspace{15pt}In conclusion, this lab exposed me to test bench code by
   allowing me to create my own for the first time. Also, this lab introduced
   me to three different type of latches, SR latch, D latch, and D flip-flop latch.
 
@@ -382,7 +382,7 @@ carry adder. \textbf{$20$ns}}
 
     \textit{In the report.}
 
-  \item \textbf{Include screenshots of all waveforms captured during simulatio in addition
+  \item \textbf{Include screenshots of all wave forms captured during simulation in addition
     to the test bench console output for each test bench simulation.}
 
     \textit{In the report.}
@@ -392,9 +392,9 @@ carry adder. \textbf{$20$ns}}
     \textit{In the report.}
 
   \item \textbf{Compare the behavioral description of the synchronous adder found in the
-    test bench code with the combination of stuctual and dataflow Verilog you
+    test bench code with the combination of structural and dataflow Verilog you
     used in the lab assignment. What are the advantages and disadvantages of each?
-    Which do you perfer and why?}
+    Which do you prefer and why?}
     
     The advantage of utilizing a behavioral description is that it is very simple and to the point because
     it uses one statement that then decides what kind of output it is going to be. In structural and dataflow
@@ -419,17 +419,17 @@ carry adder. \textbf{$20$ns}}
 \section*{Student Feedback}
 
 \begin{enumerate}
-  \item \textbf{What did you like most about the lab assignment and why? What did you like least aboub it and why?}
+  \item \textbf{What did you like most about the lab assignment and why? What did you like least about it and why?}
 
-  I enoyed learning about test bench workings. I also liked practicing more with Verilog.
+  I enjoyed learning about test bench workings. I also liked practicing more with Verilog.
 
-  \item \textbf{Were there any section of the lab manual that were unclear? If so, what was unclear? Do you have any suggetions for improving the clarity?}
+  \item \textbf{Were there any section of the lab manual that were unclear? If so, what was unclear? Do you have any suggestions for improving the clarity?}
 
-  This lab was very straight forward and provided more guidance than most of the previose labs.
+  This lab was very straight forward and provided more guidance than most of the previous labs.
 
   \item \textbf{What suggestions do you have to improve the overall lab assignment?}
 
-  Synthesising the designs onto the Spartan board would of been cool.
+  Synthesizing the designs onto the Spartan board would of been cool.
 
 \end{enumerate}
 

@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1477772672 "LabReport.tex" "LabReport.pdf" "LabReport" 1477772673
+["pdflatex"] 1477899573 "LabReport.tex" "LabReport.pdf" "LabReport" 1477899575
   "../Screenshots/D_latch_graph.png" 1477553992 16613 9bbf8f07c6e274e012bee77cf6bd1000 ""
   "../Screenshots/D_latch_tests.png" 1477553940 22000 baaf30e0e7015fb7c3a79edca6b95191 ""
   "../Screenshots/Master_Slave_D_flip_flop_graph.png" 1477554176 17085 e2f0fe53c23934e563ccb1d2305e76bf ""
@@ -105,9 +105,9 @@
   "/usr/share/texmf-dist/tex/latex/preprint/fullpage.sty" 1475625600 2789 05b418f78b224ec872f5b11081138605 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1475625600 31956 afe4561ef11f8c19b5680fda5e0bdf7f ""
   "/usr/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1475625600 3883510 f9efb41b7adc601ed992fb6e0b31e14b ""
-  "LabReport.aux" 1477772673 2929 b662dce1baa35de9463f04e190ddd892 ""
-  "LabReport.tex" 1477772672 15187 0aca73f8378a539dc3605f6244dcf4f9 ""
+  "LabReport.aux" 1477899575 2929 b662dce1baa35de9463f04e190ddd892 ""
+  "LabReport.tex" 1477899573 15201 cde38e8c3a76dc92110f4ae5fcfe53a6 ""
   (generated)
+  "LabReport.log"
   "LabReport.aux"
   "LabReport.pdf"
-  "LabReport.log"

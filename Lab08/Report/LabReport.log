@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.5)  29 OCT 2016 15:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.5)  31 OCT 2016 02:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -667,16 +667,16 @@ Package pdftex.def Info: ../Screenshots/asyc_20_graph.png used on input line 36
 1.
 (pdftex.def)             Requested size: 371.29pt x 229.76015pt.
 
-Overfull \hbox (70.39317pt too wide) in paragraph at lines 366--368
+Overfull \hbox (74.96257pt too wide) in paragraph at lines 366--368
 []\OT1/cmr/m/n/12 The test passed for 40 and 20 and failed for 18 and 19. Thus 
-the shor-est $`\OML/cmm/m/it/12 defineCLOCKPERIOD \OT1/cmr/m/n/12 =
+the short-est $`\OML/cmm/m/it/12 defineCLOCKPERIOD \OT1/cmr/m/n/12 =
  []
 
 [25 <../Screenshots/asyc_20_graph.png>] [26] [27] (./LabReport.aux) ) 
 Here is how much of TeX's memory you used:
  12069 strings out of 493014
  219460 string characters out of 6123238
- 404428 words of memory out of 5000000
+ 404432 words of memory out of 5000000
  15465 multiletter control sequences out of 15000+600000
  8101 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -687,7 +687,7 @@ onts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on LabReport.pdf (27 pages, 605786 bytes).
+Output written on LabReport.pdf (27 pages, 605799 bytes).
 PDF statistics:
  156 PDF objects out of 1000 (max. 8388607)
  80 compressed objects within 1 object stream
