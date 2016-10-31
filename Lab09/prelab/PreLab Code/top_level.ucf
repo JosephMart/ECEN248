@@ -1,0 +1,22 @@
+#Switches
+  NET "SWs[0]"  LOC = "L13" | IOSTANDARD = LVTTL; #SW0
+  # fill in for SWs[1]
+  NET "SWs[1]"  LOC = "L13"????? | IOSTANDARD = LVTTL; #SW1
+
+#Push-buttons
+NET "NORTH" LOC = "V4" | IOSTANDARD = LVttL | PULLDOWN; #North
+#fill in for South
+NET "SOUTH" LOC = "V4"?????? | IOSTANDARD = LVTTL | PULLDOWN; #South
+
+# LEDs
+NET "LEDs[0]" LOC = "F12" |  IOSTANDARD = LVTTL; #LD0
+#somethingiss missing here
+NET "LEDs[1]" LOC = "????" |  IOSTANDARD = LVTTL; #LD1
+NET "LEDs[2]" LOC = "????" |  IOSTANDARD = LVTTL; #LD2
+NET "LEDs[3]" LOC = "????" |  IOSTANDARD = LVTTL; #LD3
+
+NET "LEDs[4]" LOC = "C11" |  IOSTANDARD = LVTTL; #LD0
+
+NET "FastClk" LOC = "C9" | IOSTANDARD = LVTTL;
+# Define clock period for 50 MHz oscillator
+NET "FastClk" PERIOD = 20.0ns HIGH 40%;

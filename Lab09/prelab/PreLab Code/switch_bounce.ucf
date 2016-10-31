@@ -1,0 +1,3 @@
+#UCF for observing switch bounce
+NET "J1_0" LOC = "B4" | IOSTANDARD = LVTTL | SLEW = FAST; #J1_0
+NET "Center" LOC = "V16"  | IOSTANDARD = LVTTL | PULLDOWN | SLEW = FAST; #ROT_CENTER

@@ -1,0 +1,80 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{outline}
+\usepackage{pmgraph}
+\usepackage[normalem]{ulem}
+\usepackage{comment} % enables the use of multi-line comments (\ifx \fi)
+\usepackage{lipsum} %This package just generates Lorem Ipsum filler text.
+\usepackage{fullpage} % changes the margin
+\usepackage{listings}
+\usepackage{color}
+\usepackage{mdframed}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\graphicspath{ {../} }
+\renewcommand{\lstlistingname}{Code Block}% Listing -> Algorithm
+\renewcommand{\lstlistlistingname}{List of \lstlistingname s}% List of Listings -> List of Algorithms
+
+\linespread{1.5}
+%--------------------Indention
+\setlength{\parindent}{15pt}
+\lstset{frame=shadowbox, rulesepcolor=\color{white}}
+\mdfsetup{frametitlealignment=\center}
+\lstset{
+  numbers=left,
+  stepnumber=1,
+  firstnumber=1,
+  numberfirstline=true
+}
+
+\begin{document}
+
+\section*{PreLab Questions}
+
+\begin{enumerate}
+  \item \textbf{Supposed we want to build a 32-bit counter using the circuit in Figure 1. If the gates used to construct
+  the half-adders in the circuit are assumed to have a 2ns delay each and the flip-flop overhead is
+  assumed to be negligible, what is the maximum clock frequency we could use to drive our counter?
+  Given the clock frequency you just calculated, how long would it take this counter to roll over (i.e.
+  return to 0). Please show your calculations.}
+  \begin{align*}
+    \text{Since each gate has propagation}&\text{ delay of } 2ns \\
+    \therefore \text{Total delay } (T) &= (2\cdot32)ns =64 ns \\
+    \text{Maximum clock frequency } (f) &=\frac{1}{T}=\frac{1}{64}GHz=15MHz \\
+    \text{Time taken for roll over } &=2^{32}=4.29s
+  \end{align*}
+
+  \item \textbf{Consider the use of a counter to divide an incoming clock. If our incoming clock signal is 32.768 kHz
+  and we need a 64 Hz signal, how many bits would our counter need to have (i.e. what is n) to divide
+  the incoming clock correctly.}
+\begin{align*}
+  \frac{32768}{64}&=512 \\
+  \therefore \text{No. of bits } &=\log_{2}512=9
+\end{align*}
+
+  \item \textbf{If the Seconds per Division setting for Figure 3 was set to 1 ms/div, what do you think would be a
+  good bit width for the counter in Figure 4, assuming a 50 MHz clock signal was driving the counter?
+  Explain your answer.}
+  \vspace{10pt}
+
+\end{enumerate}
+
+\ifx
+\begin{thebibliography}{1}
+\bibitem{Verilog} Charles Kime \& Thomas Kaminski  \emph{Logic and Computer Design Fundamentals} \\ \hspace{15pt}\textit{http://www.cs.bilkent.edu.tr/~will/courses/CS223/Verilog/LCDF3_Verilog_Ch_4.pdf}
+\end{thebibliography}
+
+\section*{Attachments}
+%Make sure to change these
+Lab Notes, HelloWorld.ic, FooBar.ic
+%\fi %comment me out
+
+\begin{thebibliography}{9}
+\bibitem{Verilog} Charles Kime & Thomas Kaminski  \emph{Logic and Computer Design Fundamentals} \textit{http://www.cs.bilkent.edu.tr/~will/courses/CS223/Verilog/LCDF3_Verilog_Ch_4.pdf}
+\end{thebibliography}
+
+%How to cite
+Put your Problem statement here! Example of a Citation\cite[p.219]{Robotics}. Here's Another Citation\cite{Flueck}
+\fi
+\end{document}
