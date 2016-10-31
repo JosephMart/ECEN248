@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1477899225 "PreLab09.tex" "PreLab09.pdf" "PreLab09" 1477899225
+["pdflatex"] 1477941597 "PreLab09.tex" "PreLab09.pdf" "PreLab09" 1477941597
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1475625600 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1475625600 1888031 5317a64a246c13fa560847c387843238 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1475625600 1004 54797486969f23fa377b128694d548df ""
@@ -23,6 +23,7 @@
   "/usr/share/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1475625600 520 4889cce2180234b97cad636b6039c722 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1475625600 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1475625600 36741 fa121aac0049305630cf160b86157ee4 ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1475625600 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1475625600 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1475625600 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1475625600 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -85,9 +86,9 @@
   "/usr/share/texmf-dist/tex/latex/preprint/fullpage.sty" 1475625600 2789 05b418f78b224ec872f5b11081138605 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1475625600 31956 afe4561ef11f8c19b5680fda5e0bdf7f ""
   "/usr/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1475625600 3883510 f9efb41b7adc601ed992fb6e0b31e14b ""
-  "PreLab09.aux" 1477899225 43 0a6ade4f027f9d564f6341465efa0b40 ""
-  "PreLab09.tex" 1477899225 3166 a466c2b22523043666ed2bf14f24ec13 ""
+  "PreLab09.aux" 1477941597 43 0a6ade4f027f9d564f6341465efa0b40 ""
+  "PreLab09.tex" 1477941597 3325 0a9d9287d915f64781c2515ae581a398 ""
   (generated)
-  "PreLab09.pdf"
   "PreLab09.aux"
   "PreLab09.log"
+  "PreLab09.pdf"

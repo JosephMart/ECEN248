@@ -8,14 +8,13 @@
 \usepackage{listings}
 \usepackage{color}
 \usepackage{mdframed}
+\usepackage{amssymb}
 \usepackage{listings}
+\usepackage{amsmath}
 \usepackage{graphicx}
 \graphicspath{ {../} }
 \renewcommand{\lstlistingname}{Code Block}% Listing -> Algorithm
 \renewcommand{\lstlistlistingname}{List of \lstlistingname s}% List of Listings -> List of Algorithms
-\title{\textbf{Lab 00: Lab Title}
-\author{Joseph Martinsen \\ ECEN 248-510 \\ TA: Michael Bass}
-\date{\today}
 
 \linespread{1.5}
 %--------------------Indention
@@ -30,47 +29,33 @@
 }
 
 \begin{document}
-\section*{Objective}
-\textit{Provide three or four major points you feel the lab is attempting to
-teach you. Do NOT simply repeat the wording in the lab manual. Remember, you
-should write about what you will learn, not what you will do. Keep in mind
-these are not necessarily the same.}
 
-\section*{Design}
-
-% Verilog code template
-% \lstinputlisting[language=Verilog,,caption=4-Bit ALU ]{../code name.v}
-
-\section*{Results}
-
-% Figure with caption
-% \begin{figure}[h]
-%   \begin{center}
-%     \includegraphics[scale=1]{2_1MuxPlot.png}
-%     \caption{\textit{2-Bit 2:1 MUX Plots}}
-%   \end{center}
-% \end{figure}
-
-
-\section*{Conclutions}
-
-
-\section*{Questions}
+\section*{PreLab Questions}
 
 \begin{enumerate}
-  \item 1.
-\end{enumerate}
+  \item \textbf{Supposed we want to build a 32-bit counter using the circuit in Figure 1. If the gates used to construct
+  the half-adders in the circuit are assumed to have a 2ns delay each and the flip-flop overhead is
+  assumed to be negligible, what is the maximum clock frequency we could use to drive our counter?
+  Given the clock frequency you just calculated, how long would it take this counter to roll over (i.e.
+  return to 0). Please show your calculations.}
+  \begin{align*}
+    \text{Since each gate has propagation}&\text{ delay of } 2ns \\
+    \therefore \text{Total delay } (T) &= (2\cdot32)ns =64 ns \\
+    \text{Maximum clock frequency } (f) &=\frac{1}{T}=\frac{1}{64}GHz=15MHz \\
+    \text{Time taken for roll over } &=2^{32}=4.29s
+  \end{align*}
 
-\section*{Student Feedback}
+  \item \textbf{Consider the use of a counter to divide an incoming clock. If our incoming clock signal is 32.768 kHz
+  and we need a 64 Hz signal, how many bits would our counter need to have (i.e. what is n) to divide
+  the incoming clock correctly.}
+\begin{align*}
+  \frac{32768}{64}&=512 \\
+  \therefore \text{No. of bits } &=\log_{2}512=9
+\end{align*}
 
-\begin{enumerate}
-  \item \textbf{What did you like most about the lab assignment and why? What did you like least aboub it and why?}
-  \vspace{10pt}
-
-  \item \textbf{Were there any section of the lab manual that were unclear? If so, what was unclear? Do you have any suggetions for improving the clarity?}
-  \vspace{10pt}
-
-  \item \textbf{What suggestions do you have to improve the overall alb assignment?}
+  \item \textbf{If the Seconds per Division setting for Figure 3 was set to 1 ms/div, what do you think would be a
+  good bit width for the counter in Figure 4, assuming a 50 MHz clock signal was driving the counter?
+  Explain your answer.}
   \vspace{10pt}
 
 \end{enumerate}
