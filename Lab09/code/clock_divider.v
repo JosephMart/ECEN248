@@ -1,21 +1,20 @@
 `timescale 1ns / 1ps
 `default_nettype none
 
-
 module clock_divider (ClkOut, ClkIn);
-  /* output port needs to be a reg because we will drive it with *
-  a behavioral statement */
+  // Output port needs to be a reg because we will drive it with
+  // a behavioral statement
   output wire [3:0] ClkOut;
   input wire ClkIn; // wires can drive regs
 
-  /*-this is a keyword we ahve not seen yet!*
-  as the name implies, it is a parameter that
-  can be changed at compile time...*/
-  parameter n = 26; // make count 5-bits for now
+  // This is is a parameter that
+  // can be changed at compile time.
+  parameter n = 26;
 
-  reg [n-1:0] Count; //count bit width is based on n! how cool is that!
+  // Count bit width is based on n
+  reg [n-1:0] Count;
 
-  //simple behavioral construct to describe a counter
+  // Simple behavioral construct to describe a counter
   always @ ( posedge ClkIn ) begin
     Count <= Count + 1;
   end
