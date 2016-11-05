@@ -96,7 +96,7 @@
   "LabReport09.aux"
   "LabReport09.log"
   "LabReport09.dvi"
-["pdflatex"] 1478375001 "LabReport09.tex" "LabReport09.pdf" "LabReport09" 1478375002
+["pdflatex"] 1478380925 "LabReport09.tex" "LabReport09.pdf" "LabReport09" 1478380926
   "../code/clock_divider.v" 1478374490 681 073bb66f65f5f92c3aaaf7a1e8cb4e68 ""
   "../code/half_adder.v" 1478374583 253 cde800c38c8ca70c2d544d81393e1984 ""
   "../code/top_level.ucf" 1478374932 662 6fd37b74a515d10e1e0d474bfa9a9aeb ""
@@ -202,8 +202,8 @@
   "/usr/share/texmf-dist/tex/latex/preprint/fullpage.sty" 1475625600 2789 05b418f78b224ec872f5b11081138605 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1475625600 31956 afe4561ef11f8c19b5680fda5e0bdf7f ""
   "/usr/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1475625600 3883510 f9efb41b7adc601ed992fb6e0b31e14b ""
-  "LabReport09.aux" 1478375002 1266 39dc7e528193806bc7fc4dff235cb427 ""
-  "LabReport09.tex" 1478374976 9646 e799914321787691ae010ff1dde17346 ""
+  "LabReport09.aux" 1478380926 1301 b122a112788af53ea029468efb0d17ff ""
+  "LabReport09.tex" 1478380925 11974 3ec04cfb327dc3efed97dbf186239525 ""
   (generated)
   "LabReport09.log"
   "LabReport09.aux"

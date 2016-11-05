@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.5)  5 NOV 2016 14:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.5)  5 NOV 2016 16:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -544,7 +544,9 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 15.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+) [1
+
+{/usr/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 19.
 
 (/usr/share/texmf-dist/tex/latex/base/omlcmr.fd
@@ -552,90 +554,90 @@ File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 19.
- [1
-
-{/usr/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]) (../code/half_adde
-r.v) (../code/up_counter.v
-[2]) (../code/top_level.v [3]
+) (../code/half_adder.v)
+[2] (../code/up_counter.v [3]) (../code/top_level.v
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 15.
- (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+
+(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
-) (../code/top_level.ucf [4]) (../code/withDebounce.v
+ [4]) (../code/top_level.ucf
+[5]) (../code/withDebounce.v
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
- [5] [6]) [7] [8]
-<../screenshots/2_2_e.png, id=33, 1284.8pt x 1027.84pt>
-File: ../screenshots/2_2_e.png Graphic file (type png)
-
-<use ../screenshots/2_2_e.png>
-Package pdftex.def Info: ../screenshots/2_2_e.png used on input line 92.
-(pdftex.def)             Requested size: 128.48752pt x 102.79001pt.
- [9 <../screenshots/2_2_e.png>]
-<../screenshots/IMG_8620.JPG, id=39, 3276.24pt x 2457.18pt>
+ [6] [7]) [8]
+<../screenshots/IMG_8620.JPG, id=33, 3276.24pt x 2457.18pt>
 File: ../screenshots/IMG_8620.JPG Graphic file (type jpg)
 
 <use ../screenshots/IMG_8620.JPG>
-Package pdftex.def Info: ../screenshots/IMG_8620.JPG used on input line 99.
-(pdftex.def)             Requested size: 327.64319pt x 245.73239pt.
- [10 <../screenshots/IMG_8620.JPG>]
-<../screenshots/IMG_8621.JPG, id=43, 3276.24pt x 2457.18pt>
+Package pdftex.def Info: ../screenshots/IMG_8620.JPG used on input line 104.
+(pdftex.def)             Requested size: 262.10455pt x 196.57841pt.
+
+<../screenshots/IMG_8621.JPG, id=34, 3276.24pt x 2457.18pt>
 File: ../screenshots/IMG_8621.JPG Graphic file (type jpg)
 
 <use ../screenshots/IMG_8621.JPG>
-Package pdftex.def Info: ../screenshots/IMG_8621.JPG used on input line 106.
-(pdftex.def)             Requested size: 327.64319pt x 245.73239pt.
- [11 <../screenshots/IMG_8621.JPG>]
-<../screenshots/IMG_8622.JPG, id=47, 3276.24pt x 2457.18pt>
+Package pdftex.def Info: ../screenshots/IMG_8621.JPG used on input line 113.
+(pdftex.def)             Requested size: 262.10455pt x 196.57841pt.
+ [9 <../screenshots/IMG_8620.JPG> <../screenshots/IMG_8621.JPG>] <../screenshot
+s/IMG_8622.JPG, id=38, 3276.24pt x 2457.18pt>
 File: ../screenshots/IMG_8622.JPG Graphic file (type jpg)
 
 <use ../screenshots/IMG_8622.JPG>
-Package pdftex.def Info: ../screenshots/IMG_8622.JPG used on input line 113.
-(pdftex.def)             Requested size: 327.64319pt x 245.73239pt.
- [12 <../screenshots/IMG_8622.JPG>]
-<../screenshots/IMG_8624.JPG, id=51, 3276.24pt x 2457.18pt>
-File: ../screenshots/IMG_8624.JPG Graphic file (type jpg)
+Package pdftex.def Info: ../screenshots/IMG_8622.JPG used on input line 123.
+(pdftex.def)             Requested size: 262.10455pt x 196.57841pt.
 
-<use ../screenshots/IMG_8624.JPG>
-Package pdftex.def Info: ../screenshots/IMG_8624.JPG used on input line 120.
-(pdftex.def)             Requested size: 327.64319pt x 245.73239pt.
- [13 <../screenshots/IMG_8624.JPG>]
-<../screenshots/RollOver.png, id=56, 1284.8pt x 1027.84pt>
+<../screenshots/2_2_e.png, id=39, 1284.8pt x 1027.84pt>
+File: ../screenshots/2_2_e.png Graphic file (type png)
+
+<use ../screenshots/2_2_e.png>
+Package pdftex.def Info: ../screenshots/2_2_e.png used on input line 132.
+(pdftex.def)             Requested size: 231.25401pt x 185.00322pt.
+ [10 <../screenshots/IMG_8622.JPG> <../screenshots/2_2_e.png>] <../screenshots/
+RollOver.png, id=45, 1284.8pt x 1027.84pt>
 File: ../screenshots/RollOver.png Graphic file (type png)
 
 <use ../screenshots/RollOver.png>
-Package pdftex.def Info: ../screenshots/RollOver.png used on input line 127.
-(pdftex.def)             Requested size: 128.48752pt x 102.79001pt.
- [14 <../screenshots/RollOver.png>]
-<../screenshots/up_Count_waveform.png, id=61, 1284.8pt x 1027.84pt>
+Package pdftex.def Info: ../screenshots/RollOver.png used on input line 143.
+(pdftex.def)             Requested size: 231.25401pt x 185.00322pt.
+
+<../screenshots/up_Count_waveform.png, id=46, 1284.8pt x 1027.84pt>
 File: ../screenshots/up_Count_waveform.png Graphic file (type png)
 
 <use ../screenshots/up_Count_waveform.png>
 Package pdftex.def Info: ../screenshots/up_Count_waveform.png used on input lin
-e 134.
-(pdftex.def)             Requested size: 128.48752pt x 102.79001pt.
- [15 <../screenshots/up_Count_waveform.png>] [16] [17] (./LabReport09.aux) ) 
+e 152.
+(pdftex.def)             Requested size: 231.25401pt x 185.00322pt.
+ [11 <../screenshots/RollOver.png> <../screenshots/up_Count_waveform.png>]
+<../screenshots/IMG_8624.JPG, id=52, 3276.24pt x 2457.18pt>
+File: ../screenshots/IMG_8624.JPG Graphic file (type jpg)
+
+<use ../screenshots/IMG_8624.JPG>
+Package pdftex.def Info: ../screenshots/IMG_8624.JPG used on input line 162.
+(pdftex.def)             Requested size: 327.64319pt x 245.73239pt.
+ [12 <../screenshots/IMG_8624.JPG>] [13]
+[14] [15] (./LabReport09.aux) ) 
 Here is how much of TeX's memory you used:
  12867 strings out of 493014
  226049 string characters out of 6123238
- 414022 words of memory out of 5000000
+ 412254 words of memory out of 5000000
  16250 multiletter control sequences out of 15000+600000
  9651 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,7n,43p,10421b,1683s stack positions out of 5000i,500n,10000p,200000b,80000s
-</u
-sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
-b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on LabReport09.pdf (17 pages, 8548515 bytes).
+ 40i,8n,43p,10421b,1683s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.p
+fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i12.pfb>
+Output written on LabReport09.pdf (15 pages, 8553374 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
