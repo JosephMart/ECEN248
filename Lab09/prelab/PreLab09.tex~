@@ -56,7 +56,12 @@
   \item \textbf{If the Seconds per Division setting for Figure 3 was set to 1 ms/div, what do you think would be a
   good bit width for the counter in Figure 4, assuming a 50 MHz clock signal was driving the counter?
   Explain your answer.}
-  \vspace{10pt}
+\begin{align*}
+  f_2 &= \frac{f_1}{2^n}\\
+  2^n &= \frac{f_1}{f_2} \\
+  n   &=  \log_2 \frac{5\times 10^7}{1 \times 10^3} \\
+  n   = \log_2 5 \times 10^4 &= 15.6
+\end{align*}
 
 \end{enumerate}
 
