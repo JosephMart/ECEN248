@@ -158,7 +158,55 @@ of the divider oscillate at? (Exp 2.3.a)
 
   \item \textbf{Answer all questions throughout the lab manual.}
 
-  \textit{In the report.}
+  \item \textbf{Measure and record the period of each clock signal using the green and yellow markers. 
+  Based on you measurements, what frequency do you think the input clock is running at?}
+  
+  COUNT0 - 80 ns \\
+  COUNT1 - 160 ns \\
+  COUNT2 - 320 ns \\
+  COUNT3 - 640 ns \\
+  CLock in should be 40 resulting in a frequency of 25 MHz
+  
+  \item \textbf{Open up the test bench file and try to understand what is going on. You should see that the test
+  bench produces a Clk signal. What is the frequency of that signal?}
+  
+  In the test bench, the clock signal is held for 5 ns high and then 5 ns low which would result in a 10 ns cycle. The frequency would then be 100 MHz
+  
+  \item \textbf{You should also see that the test bench holds the counter in reset for a specific interval of time. How long is that interval?}
+  
+  The interval is 20 ns
+  
+  \item \textbf{After reset is de-asserted, the test bench holds the enable LOW for some amount of time before 
+  allowing the counter to run. How long is this time period?}
+  
+  This time period is 20 ns.
+  
+  \item \textbf{What is this maximum count value and what signal in the waveform could we use to know
+  exactly when the counter is going to roll over?}
+  
+  The maximum count value is f in hexadecimal or 15 in decimal. Whenever Carry3 was HIGH, Count was a max, on the downward edge of Carry3, the Count would reset/roll over
+  
+  \item \textbf{If we use a 50MHz clock to drive our frequency divider, what rate will the most significant bit
+  of the divider oscillate at?}
+  
+  $f_2 = \dfrac{f_1}{2^n} = \dfrac{50 mHz}{2^{26}} = 0.745 Hz$
+  
+  \item \textbf{Make note in you lab write-up how the switches affected the LED outputs.}
+  
+  The switches slowed down the rate at which the LEDs would count up. The fastest counting up would occur when none of the switches were toggled. The slowest would occur when both switches were toggled. This is due to the how the switches were interpreted into binary. There were two switches $S_0$ and $S_1$ where $S_0$ was of least importance. As the binary value of the switches went up, the speed of the LEDs would slow down.
+  
+  \item \textbf{Make a note in you lab write up of what what is described in these (Switch Bounce) files.}
+  
+  It connects J10 to the B4 input on the board. It also connects center to V16 (big center button) on the board.
+
+  \item \textbf{NoDebounce. Does the design work as intended?}
+  
+  The LEDs are a little glitchy because of multiple rising edges due to electrical chatter. 
+  
+  \item \textbf{Explain the operation of the circuit described in withDebounce.v}
+  
+  The input wire goes into two flip flops in order to synchronize the signal and eliminate electrical chatter. Then the signal goes into a binary counter. The LEDs correctly 
+  incremented based on the number of times the button was pressed.     
   
 \end{enumerate}
 
@@ -166,13 +214,16 @@ of the divider oscillate at? (Exp 2.3.a)
 
 \begin{enumerate}
   \item \textbf{What did you like most about the lab assignment and why? What did you like least about it and why?}
-  \vspace{10pt}
+  
+  In this lab, working with a partner proved to be very beneficial. Our ground circuit on the Logic Analyzer was faulty.
 
   \item \textbf{Were there any section of the lab manual that were unclear? If so, what was unclear? Do you have any suggestions for improving the clarity?}
-  \vspace{10pt}
+
+  The lab manual was clear in this lab contrary to previous labs.
 
   \item \textbf{What suggestions do you have to improve the overall lab assignment?}
-  \vspace{10pt}
+  
+  Better equipment.
 
 \end{enumerate}
 

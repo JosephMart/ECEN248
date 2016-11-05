@@ -3,54 +3,67 @@
 
 module withDebounce(LEDs, Center, Clk);
 
-    output reg [7:0] LEDs;
-    
-    input wire Center, Clk;
+  // Instantiate 8 LEDs
+  output reg [7:0] LEDs;
 
-    /*-this is a keyword we have not seen yet!*
-     *-as the name implies, it is a parameter *
-     * that can be changed at compile time... */
-    parameter n = 18;
+  // Instantiate Center (Big Knob) and Clk wire
+  input wire Center, Clk;
 
-    wire notMsb, Rst, En, Debounced;
-    reg Synchronizer0, Synchronized;
-    reg [n-1:0] Count;
+  /*-this is a keyword we have not seen yet!*
+   *-as the name implies, it is a parameter *
+   * that can be changed at compile time... */
+  parameter n = 18;
 
-    reg edge_detect0;
-    wire rising_edge;
-    
-   /********************************************/
-   /* Debounce circuitry!!!                    */ 
-   /********************************************/
-    
-    always@(posedge Clk)
-      begin
-        Synchronizer0 <= Center;
-        Synchronized <= Synchronizer0;
-      end
+  // Instantiate intermediate wires
+  wire notMsb, Rst, En, Debounced;
+  reg Synchronizer0, Synchronized;
 
-    always@(posedge Clk)
-        if(Rst)
-            Count <= 0;
-        else if(En)
-            Count <= Count + 1;
+  // Instantiate n wires for Count
+  reg [n-1:0] Count;
 
-    assign notMsb = ~Count[n-1];
-    assign En = notMsb & Synchronized;
-    assign Rst = ~Synchronized;
-    assign Debounced = Count[n-1];
+  reg edge_detect0;
+  wire rising_edge;
 
-   /********************************************/
-   /* End of Debounce circuitry!!!             */ 
-   /********************************************/
+  /********************************************/
+  /* Debounce circuitry!!!                    */
+  /********************************************/
 
-    always@(posedge Clk)
-        edge_detect0 <= Debounced;
-    assign rising_edge = ~edge_detect0 & Debounced;
+  // Pass signal through Two Flip Flops
+  always@(posedge Clk)
+    begin
+      Synchronizer0 <= Center;
+      Synchronized <= Synchronizer0;
+    end
 
-    always@(posedge Clk)
-        if(rising_edge)
-            LEDs <= LEDs + 1;
+  // Binary Counter
+  always@(posedge Clk)
+      if(Rst)
+          Count <= 0;
+      else if(En)
+          Count <= Count + 1;
+
+  // notMsb is NOT of most significant bit of Count
+  assign notMsb = ~Count[n-1];
+  // Enable is notMsb AND Synchronized
+  assign En = notMsb & Synchronized;
+  // Reset is NOT Synchronized
+  assign Rst = ~Synchronized;
+  // Debounced is most significant bit of Count
+  assign Debounced = Count[n-1];
+
+  /********************************************/
+  /* End of Debounce circuitry!!!             */
+  /********************************************/
+
+  always@(posedge Clk)
+      edge_detect0 <= Debounced;
+
+  // Determine if it is  a rising edge
+  assign rising_edge = ~edge_detect0 & Debounced;
+
+  // If rising edgs, light up the next LEDs
+  always@(posedge Clk)
+      if(rising_edge)
+          LEDs <= LEDs + 1;
 
 endmodule
-
