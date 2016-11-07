@@ -11,9 +11,9 @@ module generate_propagate_unit(G, P, X, Y);
   assign G[2] = X[2] & Y[2];
   assign G[3] = X[3] & Y[3];
 
-  assign P[0] = X[0] ^ Y[0];
-  assign P[1] = X[1] ^ Y[1];
-  assign P[2] = X[2] ^ Y[2];
-  assign P[3] = X[3] ^ Y[3];
+  assign P[0] = X[0] || Y[0];
+  assign P[1] = X[1] || Y[1];
+  assign P[2] = X[2] || Y[2];
+  assign P[3] = X[3] || Y[3];
 
 endmodule // generate_propagate_unit
