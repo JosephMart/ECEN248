@@ -52,29 +52,17 @@
   
   \item \textbf{What is the gate count of your 4-bit \textit{carry-lookahead} adder?}
   
-  \begin{table}[h]
-\centering
-% \caption{Gate Count}
-  \begin{tabular}{l l}
-  Module & \# of Gates \\ \hline \hline
-  gpu0   & 8           \\ 
-  gpu01  & 8           \\ 
-  gpu2   & 8           \\ 
-  gpu3   & 8           \\ 
-  clu0   & 8           \\ 
-  clu1   & 8           \\ 
-  clu2   & 8           \\ 
-  clu3   & 8           \\ 
-  su0    & 4           \\ 
-  su1    & 4           \\ 
-  su2    & 4           \\ 
-  su3    & 4           \\ \hline
-  \textbf{Total}  & \textbf{80}        
-  \end{tabular}
-\end{table}
+  The gate count is 26.
   
   \item \textbf{The previous problems were concerned with a single-level 4-bit \textit{carry-lookahead} adder. In one of the lab experiments, we will construct a 16-bit, 2-level \textit{carry-lookahead} adder. The following questions will prepare you for this exercise. What is the propagation delay of the 16-bit, 2-\textit{level} carry-lookahead adder in Figure 2? Likewise, what is the gate-count?}
 
+  The propagation delay of the $16$-bit is $6$. The gate count is calculated below
+  \vspace{-30pt}
+  \begin{center}
+    \begin{align*}
+      32 + 14\cdot4 + 14 + 16 = 188 \text{ gates}
+    \end{align*}
+  \end{center}
 \end{enumerate}
 
 \ifx

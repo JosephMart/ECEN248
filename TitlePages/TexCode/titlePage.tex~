@@ -6,7 +6,7 @@
 \usepackage{lipsum} %This package just generates Lorem Ipsum filler text.
 \usepackage{fullpage} % changes the margin
 
-\title{\textbf{09: Counters, Clock Dividers, and Debounce Circuits}}
+\title{\textbf{Lab 09: Counters, Clock Dividers, and Debounce Circuits}}
 \author{Amanda Bsaibes \& Joseph Martinsen \\ ECEN 248-510 \\ TA: Michael Bass}
 \date{\today}
 %--------------------Make usable space all of page
