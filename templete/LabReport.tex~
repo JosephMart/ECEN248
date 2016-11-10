@@ -9,6 +9,8 @@
 \usepackage{color}
 \usepackage{mdframed}
 \usepackage{listings}
+\usepackage{amssymb}
+\usepackage{amsmath}
 \usepackage{graphicx}
 \graphicspath{ {../} }
 \renewcommand{\lstlistingname}{Code Block}% Listing -> Algorithm
@@ -52,7 +54,7 @@ these are not necessarily the same.}
 % \end{figure}
 
 
-\section*{Conclutions}
+\section*{Conclusions}
 
 
 \section*{Questions}
@@ -64,13 +66,13 @@ these are not necessarily the same.}
 \section*{Student Feedback}
 
 \begin{enumerate}
-  \item \textbf{What did you like most about the lab assignment and why? What did you like least aboub it and why?}
+  \item \textbf{What did you like most about the lab assignment and why? What did you like least about it and why?}
   \vspace{10pt}
 
-  \item \textbf{Were there any section of the lab manual that were unclear? If so, what was unclear? Do you have any suggetions for improving the clarity?}
+  \item \textbf{Were there any section of the lab manual that were unclear? If so, what was unclear? Do you have any suggestions for improving the clarity?}
   \vspace{10pt}
 
-  \item \textbf{What suggestions do you have to improve the overall alb assignment?}
+  \item \textbf{What suggestions do you have to improve the overall lab assignment?}
   \vspace{10pt}
 
 \end{enumerate}
