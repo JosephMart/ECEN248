@@ -1,25 +1,8 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    15:48:20 11/07/2016 
-// Design Name: 
-// Module Name:    carry_lookahead_16bit 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
-module carry_lookahead_16bit(Cout, S, X, Y, Cin);
-	// Ports are wires as we will use structual
+// This is the top-level module for a 16-bit
+// 2-level caryy lookahead adder
+
+module carry_lookahead_16bit (Cout, S, X, Y, Cin);
+  // Ports are wires as we will use structual
   output wire Cout; // C_16 for a 16-bit adder
   output wire [15:0] S; // final 16-bit sum vector
   input wire [15:0] X, Y; // the 16-bit addends
@@ -29,8 +12,6 @@ module carry_lookahead_16bit(Cout, S, X, Y, Cin);
   wire [16:0] C; // 5-bit carry vector???
   wire [15:0] P, G; // generate and propagate vectors
   wire [3:0] P_star, G_star; // block gens and props
-  
-  assign C[0] = Cin;
 
   // hook up input and output carry
   // do something here
@@ -46,34 +27,34 @@ module carry_lookahead_16bit(Cout, S, X, Y, Cin);
     .C (C[3:1]),
     .G (G[3:0]),
     .P (P[3:0]),
-    .C0 (C[0])
+    .C0 (C[0]),
     );
 
   block_carry_lookahead_unit BLCAU1(
     .G_star (G_star[1]),
     .P_star (P_star[1]),
-    .C (C[7:5]),
+    .C (C[6:4]),
     .G (G[7:4]),
     .P (P[7:4]),
-    .C0 (C[4])
+    .C0 (C[3]),
     );
 
   block_carry_lookahead_unit BLCAU2(
     .G_star (G_star[2]),
     .P_star (P_star[2]),
-    .C (C[11:9]),
+    .C (C[9:7]),
     .G (G[11:8]),
     .P (P[11:8]),
-    .C0 (C[8])
+    .C0 (C[6]),
     );
 
   block_carry_lookahead_unit BLCAU3(
     .G_star (G_star[3]),
     .P_star (P_star[3]),
-    .C (C[15:13]),
+    .C (C[12:10]),
     .G (G[15:12]),
     .P (P[15:12]),
-    .C0 (C[12])
+    .C0 (C[9]),
     );
 
   carry_lookahead_unit CLAU(
@@ -83,8 +64,6 @@ module carry_lookahead_16bit(Cout, S, X, Y, Cin);
     .C0 (C[0])
     );
 
-    summation_unit su(S,P,C[15:0]);
-	 
-	 assign Cout = C[16];
+    summation_unit su(S,P,C);
 
-endmodule
+endmodule // carry_lookahead_16bit
