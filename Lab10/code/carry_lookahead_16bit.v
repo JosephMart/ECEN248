@@ -1,43 +1,19 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    15:48:20 11/07/2016 
-// Design Name: 
-// Module Name:    carry_lookahead_16bit 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
 module carry_lookahead_16bit(Cout, S, X, Y, Cin);
-	// Ports are wires as we will use structual
+  // Ports are wires as we will use structual
   output wire Cout; // C_16 for a 16-bit adder
   output wire [15:0] S; // final 16-bit sum vector
   input wire [15:0] X, Y; // the 16-bit addends
   input wire Cin;
 
   // Intermediate nets
-  wire [16:0] C; // 5-bit carry vector???
-  wire [15:0] P, G; // generate and propagate vectors
+  wire [16:0] C; // 17-bit carry vector
+  wire [15:0] P, G; // 16 bit generate and propagate vectors
   wire [3:0] P_star, G_star; // block gens and props
-  
+
   assign C[0] = Cin;
 
-  // hook up input and output carry
-  // do something here
-
-  // instantiate sub modules
-
-  // instantiatethe generate/propagate unit here
+  // Instantiate Modules
   generate_propagate_unit gpu (G, P, X, Y);
 
   block_carry_lookahead_unit BLCAU0(
@@ -83,8 +59,7 @@ module carry_lookahead_16bit(Cout, S, X, Y, Cin);
     .C0 (C[0])
     );
 
-    summation_unit su(S,P,C[15:0]);
-	 
-	 assign Cout = C[16];
+  summation_unit su(S,P,C[15:0]);
 
+  assign Cout = C[16];
 endmodule

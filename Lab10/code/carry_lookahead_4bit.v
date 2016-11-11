@@ -1,25 +1,6 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    14:44:03 11/07/2016 
-// Design Name: 
-// Module Name:    carry_lookahead_4bit 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
 module carry_lookahead_4bit(Cout, S, X, Y, Cin);
-// Ports are wires because we are using structual
+  // Ports are wires because we are using structual
   output wire Cout; // C4 for a 4-bit adder
   output wire [3:0] S; // final 4-bit sum vector
   input wire [3:0] X, Y; // the 4-bit addends
@@ -39,6 +20,7 @@ module carry_lookahead_4bit(Cout, S, X, Y, Cin);
   // summation_unit (S, P, C);
   summation_unit su(S, P, C[3:0]);
 
+  // Assign Cout to wire C
   assign Cout = C[4];
 
 endmodule
