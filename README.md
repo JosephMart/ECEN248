@@ -12,8 +12,8 @@ Labs
 - [x] Lab 05  -  Simple Arithmetic Logic Unit
 - [x] Lab 06  -  Introduction to Logic Simulation and Verilog
 - [x] Lab 07  -  Introduction to Behavioral Verilog and Logic Synthesis
-- [ ] Lab 08  -  Introduction to Sequential Logic
-- [ ] Lab 09  -  Counters, Clock Dividers, and Debounce Circuits
+- [x] Lab 08  -  Introduction to Sequential Logic
+- [x] Lab 09  -  Counters, Clock Dividers, and Debounce Circuits
 - [ ] Lab 10  -  An Introduction to High-Speed Addition
 - [ ] Lab 11  -  A Simple Digital Combination Lock
 - [ ] Lab 12  -  The Traffic Light Controller Lab
