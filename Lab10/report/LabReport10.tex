@@ -159,8 +159,14 @@ Below are the test results for the same module where all the tests results passe
   \item \textbf{Answer all questions through the lab manual: If your calculations in the prelab are correct and you correctly added delays to your sub-modules,
 you should find that the computed delay matches the measure delay. Is this the case?}
   No they do not match. I believe the issue is with how gate delays were not assigned correctly.
+  
   \item \textbf{How does the gate-count of the 16-bit carry-looahead adder compare to that of a ripple-carry adder of the same size.}
+  
+  The gate-count of a 16-bit-carry-lookahead adder compared to a ripple-carry of the same size is that CLA has 82-gates and RC has 80 gates. Also the CLA functions faster than the RC.
+  
   \item \textbf{How does the propagation delay of the 4-bit carry-lookahead adder compare to that of a ripple-carry adder of the same size. Similarly, how does the 16-bit carry-lookahead adder compare to that of a ripple-carry adder of the same size.}
+  
+  The propagation delay of a 16-bit carry lookahead adder compared to a ripple carry adder is that the 16-bit CLA has a bigger delay than the RC. This is due to how the CLA uses parallel circuitry rather than a long string of full adders in series like the RC.
   
 \end{enumerate}
 
