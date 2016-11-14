@@ -145,7 +145,7 @@
   "LabReport.aux"
   "LabReport.log"
   "LabReport.dvi"
-["pdflatex"] 1479146777 "LabReport.tex" "LabReport.pdf" "LabReport" 1479146778
+["pdflatex"] 1479151243 "LabReport.tex" "LabReport.pdf" "LabReport" 1479151244
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1475625600 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1475625600 1888031 5317a64a246c13fa560847c387843238 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1475625600 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -222,10 +222,10 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1475625600 31956 afe4561ef11f8c19b5680fda5e0bdf7f ""
   "/usr/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1475625600 3883510 f9efb41b7adc601ed992fb6e0b31e14b ""
   "AutomaEdit.png" 1479145950 215931 ad52d80a28e9280aa11fca1f590a4f5b ""
-  "LabReport.aux" 1479146778 239 f245158376cb81f8b9f652e1d90f46d5 ""
+  "LabReport.aux" 1479151244 239 f245158376cb81f8b9f652e1d90f46d5 ""
   "LabReport.tex" 1479146777 2032 e0db8f60fa294877c6bae5cb6faf2320 ""
-  "combination_lock_fsm.v" 1479146752 932 a80e51e4146eec2478bd82c367e52bda ""
+  "combination_lock_fsm.v" 1479151238 1369 c88b5c621408c6b56d7ac2b4ff19e51b ""
   (generated)
+  "LabReport.pdf"
   "LabReport.aux"
   "LabReport.log"
-  "LabReport.pdf"

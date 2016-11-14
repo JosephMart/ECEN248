@@ -25,29 +25,28 @@ module combination_lock_fsm (
           nextState = S0;
         end
       S1: begin
-        if (condition)
+        if (Left && Count == 13)
           nextState = S2;
-        else
+        else if (Left && Count != 13)
           nextState = S1;
         end
       S2: begin
-        if (condition)
+        if (Right == 1 && Count == 7)
           nextState = S3;
-        else
+        else if (Right == 1 && Count != 7)
           nextState = S2
         end
       S3: begin
-        if (condition)
+        if (Center == 1 && Count == 17)
           nextState = S4;
-        else
+        else if (Center == 1 && Count != 17)
           nextState = S3
         end
       // S4: begin
       //   if (condition)
       //
       //   else
-
-        end
+      // end
     endcase
   end
 

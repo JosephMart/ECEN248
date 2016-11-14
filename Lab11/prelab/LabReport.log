@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.5)  14 NOV 2016 12:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.5)  14 NOV 2016 13:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -540,38 +540,38 @@ File: lstlang2.sty 2015/06/04 1.6 listings language file
 (/usr/share/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2015/06/04 1.6 listings language file
 )
-(./combination_lock_fsm.v
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 10.
+(./combination_lock_fsm.v [1
+
+{/usr/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map} <./AutomaEdit.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 19.
  (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
 
-[1
-
-{/usr/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map} <./AutomaEdit.png>]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 47.
+[2]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 55.
  (/usr/share/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 47.
- [2]) [3] (./LabReport.aux) ) 
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 55.
+) [3] (./LabReport.aux) ) 
 Here is how much of TeX's memory you used:
- 12723 strings out of 493014
- 223687 string characters out of 6123238
- 401770 words of memory out of 5000000
- 16148 multiletter control sequences out of 15000+600000
+ 12726 strings out of 493014
+ 223705 string characters out of 6123238
+ 406770 words of memory out of 5000000
+ 16151 multiletter control sequences out of 15000+600000
  5919 words of font info for 22 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,7n,43p,10419b,1683s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
-></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on LabReport.pdf (3 pages, 215425 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmti12.pfb>
+Output written on LabReport.pdf (3 pages, 217274 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
