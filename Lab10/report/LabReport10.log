@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.5)  10 NOV 2016 22:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.5)  14 NOV 2016 00:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -563,24 +563,71 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Missing character: There is no â in font cmr12!
 Missing character: There is no ˆ in font cmr12!
 Missing character: There is no ’ in font cmr12!
-(../code/carry_lookahead_16bit.v [5] [6]) [7] [8] (./LabReport10.aux) ) 
+(../code/carry_lookahead_16bit.v [5] [6]) [7]
+<../screenshots/exp1_full_waveform.png, id=29, 1284.8pt x 1027.84pt>
+File: ../screenshots/exp1_full_waveform.png Graphic file (type png)
+
+<use ../screenshots/exp1_full_waveform.png>
+Package pdftex.def Info: ../screenshots/exp1_full_waveform.png used on input li
+ne 103.
+(pdftex.def)             Requested size: 256.95544pt x 205.56436pt.
+
+<../screenshots/exp1_test_results.png, id=31, 1284.8pt x 1027.84pt>
+File: ../screenshots/exp1_test_results.png Graphic file (type png)
+
+<use ../screenshots/exp1_test_results.png>
+Package pdftex.def Info: ../screenshots/exp1_test_results.png used on input lin
+e 112.
+(pdftex.def)             Requested size: 192.71169pt x 154.16934pt.
+ [8 <../screenshots/exp1_full_waveform.png> <../screenshots/exp1_test_results.p
+ng>]
+<../screenshots/Exp_1_difference_6ns.png, id=37, 1284.8pt x 1027.84pt>
+File: ../screenshots/Exp_1_difference_6ns.png Graphic file (type png)
+
+<use ../screenshots/Exp_1_difference_6ns.png>
+Package pdftex.def Info: ../screenshots/Exp_1_difference_6ns.png used on input 
+line 122.
+(pdftex.def)             Requested size: 256.95544pt x 205.56436pt.
+
+Overfull \hbox (15.6653pt too wide) in paragraph at lines 129--130
+[]\OT1/cmr/m/n/12 Below is the first time the tests failed for 16 bit carry loo
+ka-head adder. The TEST[]DELAY
+ []
+
+<../screenshots/exp3_failed_tests.png, id=38, 1284.8pt x 1027.84pt>
+File: ../screenshots/exp3_failed_tests.png Graphic file (type png)
+
+<use ../screenshots/exp3_failed_tests.png>
+Package pdftex.def Info: ../screenshots/exp3_failed_tests.png used on input lin
+e 133.
+(pdftex.def)             Requested size: 192.71169pt x 154.16934pt.
+ [9 <../screenshots/Exp_1_difference_6ns.png> <../screenshots/exp3_failed_tests
+.png>]
+<../screenshots/exp3_failedWaveform.png, id=44, 1284.8pt x 1027.84pt>
+File: ../screenshots/exp3_failedWaveform.png Graphic file (type png)
+
+<use ../screenshots/exp3_failedWaveform.png>
+Package pdftex.def Info: ../screenshots/exp3_failedWaveform.png used on input l
+ine 142.
+(pdftex.def)             Requested size: 256.95544pt x 205.56436pt.
+ [10 <../screenshots/exp3_failedWaveform.png>] [11] (./LabReport10.aux) ) 
 Here is how much of TeX's memory you used:
- 12781 strings out of 493014
- 224948 string characters out of 6123238
+ 12809 strings out of 493014
+ 225923 string characters out of 6123238
  417321 words of memory out of 5000000
- 16164 multiletter control sequences out of 15000+600000
+ 16185 multiletter control sequences out of 15000+600000
  9651 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,6n,43p,10421b,1486s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/sh
-are/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmti12.pfb>
-Output written on LabReport10.pdf (8 pages, 80883 bytes).
+ 40i,7n,43p,10421b,1486s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti12.pfb>
+Output written on LabReport10.pdf (11 pages, 666472 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 67 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -31,13 +31,65 @@
 \begin{document}
 \section*{Objective}
 
-\hspace{15pt}In this lab
+\hspace{15pt}In this lab, a fast-adder circuit for two-opperand addition was designed called carry-lookahead addition. The design consists of using a combination of dataflow and structural Verilog. The designs were then simulated on the Xilinx ISE to check for correctness. The propagation delays for for a 4-bit and 16-bit carry-lookahead adder were also analyzed in order to compare to similar sized ripple-carry adders.  
 
 \section*{Design}
 
-% Verilog code template
+% EXP 1
+% generate propagate unit
+% carry lookahead unit
+% summation unit
+% carry lookahead 4bit
+% 4-bit carry lookahead adder
+% modified to 2ns gate delays - propagation was measuered
+% \lstinputlisting[language=Verilog,,caption=4-Bit ALU ]{../code/code name.v}
+% EXP 2
+% block_carry_lookahead_unit.v
+% \lstinputlisting[language=Verilog,,caption=4-Bit ALU ]{../code/block_carry_lookahead_unit.v}
+% GPU and SU changed to be 16 bit wide with removed gate delay
+% \lstinputlisting[language=Verilog,,caption=4-Bit ALU ]{../code/code name.v}
+% top level module carry_lookahead_16bit
+% \lstinputlisting[language=Verilog,,caption=4-Bit ALU ]{../code/code name.v}
+% Edit test bennch TEST_DELAY (9ns)
 % \lstinputlisting[language=Verilog,,caption=4-Bit ALU ]{../code/code name.v}
 
+\textbf{Experiment 1}
+
+To start off the experiment, the following code was written for the most part as part of the prelab. A few modifications were made into order to function properly. The first three blocks of code are of the modules (\textit{generate-propagate-unit, carry-lookahead-unit,} and \textit{summation-unit}) used in \textit{Code Block 4} for the top level   module \textit{carry-lookahead-4bit}
+
+% Verilog code template
+  \lstinputlisting[language=Verilog,,caption=Generate Propagate Unit (4-Bit)]{../code/generate_propagate_unit.v}
+
+  \lstinputlisting[language=Verilog,,caption=Carry Lookahead Unit (4-Bit)]{../code/carry_lookahead_unit.v}
+  
+  \lstinputlisting[language=Verilog,,caption=Summation Unit (4-Bit)]{../code/summation_unit.v}
+  
+  \lstinputlisting[language=Verilog,,caption=Top Level Carry Lookahead (4-Bit)]{../code/carry_lookahead_4bit.v}
+  
+  For the next part, gate delays were modified in the following modules.
+  
+  \lstinputlisting[language=Verilog,firstnumber=8,firstline=8,lastline=9,caption=Generate Propagate Unit (4-Bit with Delay)]{../code/generate_propagate_unit_delay.v}
+
+  \lstinputlisting[language=Verilog,firstnumber=8,firstline=8,lastline=14,caption=Carry Lookahead Unit (4-Bit with Delay)]{../code/carry_lookahead_unit_delay.v}
+  
+  \lstinputlisting[language=Verilog,firstnumber=8,firstline=8,lastline=8,caption=Summation Unit (4-Bit with Delay)]{../code/summation_unit_delay.v}
+
+  \hspace{-15pt}\textbf{Experiment 2}
+  
+  In the next experiment, a block carry lookahead unit was designed. The module interface is as follows:
+
+  \lstinputlisting[language=Verilog,,caption=Block Carry Lookahead Unit]{../code/block_carry_lookahead_unit.v}
+  
+  Next, the generate propegate unit and summation unit were modified in order to take in 15 bit wires as shown below. The gate delays were also removed.
+  
+  \lstinputlisting[language=Verilog,firstnumber=4,firstline=4,lastline=5,caption=Generate Propagate Unit (16-Bit)]{../code/generate_propagate_unit_delay.v}
+  
+  \lstinputlisting[language=Verilog,firstnumber=4,firstline=4,lastline=5,caption=Summation Unit (16-Bit)]{../code/summation_unit_delay.v}
+  
+  Finally the past modules were implemented into a top−level module for a 16-bit carry lookahead adder.
+  
+  \lstinputlisting[language=Verilog,,caption=16-Bit Carry Lookahead Adder]{../code/carry_lookahead_16bit.v}
+  
 \section*{Results}
 
 % Figure with caption

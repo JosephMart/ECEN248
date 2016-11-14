@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1478838469 "LabReport10.tex" "LabReport10.pdf" "LabReport10" 1478838469
+["pdflatex"] 1479105392 "LabReport10.tex" "LabReport10.pdf" "LabReport10" 1479105489
   "../code/block_carry_lookahead_unit.v" 1478836852 658 49607945a1862455e0d8d9f961ad8378 ""
   "../code/carry_lookahead_16bit.v" 1478838459 1397 1809701c6224485b362b7e2e482d31ec ""
   "../code/carry_lookahead_4bit.v" 1478837440 678 c1675a22ec13793a1daf1acbaa52a7d9 ""
@@ -9,6 +9,11 @@
   "../code/generate_propagate_unit_delay.v" 1478837409 256 5b84c08be4d961c0d0cb9bc6e763d4c4 ""
   "../code/summation_unit.v" 1478836070 222 dea406e3af217481c9338f7a9e84898c ""
   "../code/summation_unit_delay.v" 1478837435 227 699c6ab4fb3304d978b5843860a49b91 ""
+  "../screenshots/Exp_1_difference_6ns.png" 1478816979 107360 c77a38fe2d1cce4104506b6e93ac512e ""
+  "../screenshots/exp1_full_waveform.png" 1478816979 111192 38df501fa5bcb6d99de39522c7e3f91d ""
+  "../screenshots/exp1_test_results.png" 1478816979 170014 2ef86178f3df11f47083c278e8076be3 ""
+  "../screenshots/exp3_failedWaveform.png" 1478816979 98707 32adbf09b8032fa624abdb7d9130d00c ""
+  "../screenshots/exp3_failed_tests.png" 1479105448 211588 f46d83e635f0e76df5e4a34b7d837ff5 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1475625600 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1475625600 1888031 5317a64a246c13fa560847c387843238 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1475625600 1004 54797486969f23fa377b128694d548df ""
@@ -97,9 +102,9 @@
   "/usr/share/texmf-dist/tex/latex/preprint/fullpage.sty" 1475625600 2789 05b418f78b224ec872f5b11081138605 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1475625600 31956 afe4561ef11f8c19b5680fda5e0bdf7f ""
   "/usr/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1475625600 3883510 f9efb41b7adc601ed992fb6e0b31e14b ""
-  "LabReport10.aux" 1478838469 1097 7df1f0383e51d5e5ec261726754ac67e ""
-  "LabReport10.tex" 1478838368 6880 c7f561fbcc2457dcea051c49ee62fdef ""
+  "LabReport10.aux" 1479105448 1630 7974ebcb7b3cbb0d3a0ee34f3440aa2f ""
+  "LabReport10.tex" 1479105489 8674 d93f7f52b730763e587f88c59fa5e80c ""
   (generated)
-  "LabReport10.log"
   "LabReport10.pdf"
   "LabReport10.aux"
+  "LabReport10.log"

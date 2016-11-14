@@ -90,41 +90,91 @@ To start off the experiment, the following code was written for the most part as
   
   \lstinputlisting[language=Verilog,,caption=16-Bit Carry Lookahead Adder]{../code/carry_lookahead_16bit.v}
   
+\newpage
+
 \section*{Results}
 
-% Figure with caption
-% \begin{figure}[h]
-%   \begin{center}
-%     \includegraphics[scale=1]{2_1MuxPlot.png}
-%     \caption{\textit{2-Bit 2:1 MUX Plots}}
-%   \end{center}
-% \end{figure}
+  \textbf{Experiment 1}
+  
+  Below is the waveform for the 4-Bit carry lookahead adder.
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[scale=.2]{exp1_full_waveform.png}
+    \caption{\textit{Full waveform}}
+  \end{center}
+\end{figure}
+
+Below are the test results for the same module where all the tests results passed.
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[scale=.15]{exp1_test_results.png}
+    \caption{\textit{Experiment 1 Test Results}}
+  \end{center}
+\end{figure}
+
+\newpage
+  Below is the waveform with the gate delays added.
+  
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[scale=.2]{Exp_1_difference_6ns.png}
+    \caption{\textit{Difference 6ns}}
+  \end{center}
+\end{figure}
+
+\textbf{Experiment 2}
+
+  Below is the first time the tests failed for 16 bit carry lookahead adder. The TEST\_DELAY was set to $9$ ns
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[scale=.15]{exp3_failed_tests.png}
+    \caption{\textit{Experiment 3 Failed Tests}}
+  \end{center}
+\end{figure}
+
+\newpage
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[scale=.2]{exp3_failedWaveform.png}
+    \caption{\textit{Failed Waveform}}
+  \end{center}
+\end{figure}
 
 
 \section*{Conclusion}
 
+  In conclusion, I learned how faster adders than ones previously created are designed. This lab also allowed me to build upon my ability to create basic modules using both structural and dataflow Verilog. After creating a 4-Bit adder, I was able to create a 16-bit lookahead adder using and modifying previously created modules.
 
 \section*{Questions}
 
 \begin{enumerate}
-  \item \textbf{Include the source code with comments for all odules in lab. you do not have to include test bench code. Code without comments will not be accepted!}
+  \item \textbf{Include the source code with comments for all modules in lab. you do not have to include test bench code. Code without comments will not be accepted!}
+    \textit{In report}
   \item \textbf{Include the simulation screenshots requested in the above experiments in addition to the corresponding test bench console output.}
-  \item \textbf{Answer all questions throught the lab manual}
-  \item \textbf{How does the gate-cout of the 16-bit carry-looahead adder compar to that of a ripple-carry adder of the same size.}
-  \item \textbf{How does the progaagtion delay of the 4-bit carry-lookahead adder compare to that of a ripple-carry adder of the same size. Similarly, how does the 16-bit carry-lookahead adder compare to that of a ripple-carry adder of the same size.}
+      \textit{In report}
+  \item \textbf{Answer all questions through the lab manual: If your calculations in the prelab are correct and you correctly added delays to your sub-modules,
+you should find that the computed delay matches the measure delay. Is this the case?}
+  No they do not match. I believe the issue is with how gate delays were not assigned correctly.
+  \item \textbf{How does the gate-count of the 16-bit carry-looahead adder compare to that of a ripple-carry adder of the same size.}
+  \item \textbf{How does the propagation delay of the 4-bit carry-lookahead adder compare to that of a ripple-carry adder of the same size. Similarly, how does the 16-bit carry-lookahead adder compare to that of a ripple-carry adder of the same size.}
+  
 \end{enumerate}
 
 \section*{Student Feedback}
 
 \begin{enumerate}
   \item \textbf{What did you like most about the lab assignment and why? What did you like least about it and why?}
-  \vspace{10pt}
+  I liked building upon my knowledge of verilog.
 
   \item \textbf{Were there any section of the lab manual that were unclear? If so, what was unclear? Do you have any suggestions for improving the clarity?}
-  \vspace{10pt}
+  The lab was pretty clear
 
   \item \textbf{What suggestions do you have to improve the overall lab assignment?}
-  \vspace{10pt}
+  This was the easiest lab so far so I do not have any suggestions.
 
 \end{enumerate}
 
