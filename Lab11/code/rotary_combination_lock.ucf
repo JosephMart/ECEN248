@@ -1,0 +1,26 @@
+#push buttons
+NET "South"  LOC = "K17"  | IOSTANDARD = LVTTL | PULLDOWN ;
+NET "Center" LOC = "V16"  | IOSTANDARD = LVTTL | PULLDOWN ;
+
+#rotary encoder
+NET "rotA" LOC = "K18" | IOSTANDARD = LVTTL | PULLUP ;
+NET "rotB" LOC = "G18" | IOSTANDARD = LVTTL | PULLUP ;
+
+#J1 connector for debugging!
+NET "J1<0>" LOC = "B4" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 6 ;
+NET "J1<1>" LOC = "A4" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 6 ;
+NET "J1<2>" LOC = "D5" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 6 ;
+
+#Clock
+NET "Clk"  LOC = "C9"  ;
+NET "Clk" PERIOD = 20.0ns HIGH 40%;
+
+#LCD interface signals
+NET "LCD_E" LOC = "M18" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
+NET "LCD_RS" LOC = "L18" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
+NET "LCD_RW" LOC = "L17" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
+# The LCD four-bit data interface is shared with the StrataFlash.
+NET "SF_D[0]" LOC = "R15" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
+NET "SF_D[1]" LOC = "R16" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
+NET "SF_D[2]" LOC = "P17" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
+NET "SF_D[3]" LOC = "M15" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
