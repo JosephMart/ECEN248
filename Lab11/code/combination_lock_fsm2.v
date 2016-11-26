@@ -13,6 +13,7 @@ module combination_lock_fsm(output reg [2:0] state,
             S2 = 3'b010,
             S3 = 3'b011,
 			S4 = 3'b100,
+			S5 = 3'b101;
 
   reg [2:0] nextState;
 
@@ -51,8 +52,19 @@ module combination_lock_fsm(output reg [2:0] state,
 			else
 				nextState = S3;
         end
-		S4: begin
-        nextState = S4;
+      S4: begin
+			if (Center)
+				if (Count == 5'b10001)
+					nextState = S5;
+				else
+					nextState = S0;
+			else if (Right)
+				nextState = S0;
+			else
+				nextState = S4;
+			end
+		S5: begin
+        nextState = S5;
         end
 
 		default: begin
@@ -61,7 +73,7 @@ module combination_lock_fsm(output reg [2:0] state,
     endcase
   end
 
-	assign Locked = (state == S4) ? 0:1;
+	assign Locked = (state == S5) ? 0:1;
 
 	always@ (posedge Clk)
 		if (South)

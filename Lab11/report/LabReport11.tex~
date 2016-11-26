@@ -32,6 +32,13 @@
 \section*{Objective}
 
 \section*{Design}
+% combination lock fsm test
+% 1.1.e Likewise, take a look at the simulation waveform and take note of the tests that the test bench performs. Is this an exhaustive test? Why or why not?
+% up down counter test 
+% Synthesize onto FPGA board
+% Synthesize onto FBGA board with 17 for 4th digit
+
+
 
 % Verilog code template
 % \lstinputlisting[language=Verilog,,caption=4-Bit ALU ]{../code name.v}
@@ -53,7 +60,14 @@
 \section*{Questions}
 
 \begin{enumerate}
-  \item 1.
+  \item \textbf{Include the source code with comments for all modules you simulated and/or implemented in lab. You do not have to include test bench code that was provided! Code without comments will not be
+accepted!}
+
+  \item \textbf{Include screenshots of all waveforms captured during simulation in addition to the test bench console output for each test bench simulation.}
+
+  \item \textbf{Answer all questions throughout the lab manual.}
+  
+  \item \textbf{A possible attack on your combination-lock is a brute-force attack in which every possible input combination is tried. Given the original design with a combination of three numbers between 0 and 19, how many possible input combinations exist? How about for the modified design with a combination of four numbers?}
 \end{enumerate}
 
 \section*{Student Feedback}
