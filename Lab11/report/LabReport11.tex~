@@ -12,7 +12,7 @@
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{graphicx}
-\graphicspath{ {../} }
+\graphicspath{ {../graphics/} }
 \renewcommand{\lstlistingname}{Code Block}% Listing -> Algorithm
 \renewcommand{\lstlistlistingname}{List of \lstlistingname s}% List of Listings -> List of Algorithms
 
@@ -31,27 +31,88 @@
 \begin{document}
 \section*{Objective}
 
+  \hspace{15pt}The purpose of this lab is to further our knowledge of Verilog and circuit design by walking the student through the process of designing a combination lock. The lock is very similiar to the locks found on high school lockers. After building and designing a 3 digit lock, the student will then have to implement a 4-digit lock by modifying the existing design.
+
 \section*{Design}
 % combination lock fsm test
 % 1.1.e Likewise, take a look at the simulation waveform and take note of the tests that the test bench performs. Is this an exhaustive test? Why or why not?
 % up down counter test 
 % Synthesize onto FPGA board
 % Synthesize onto FBGA board with 17 for 4th digit
+\textbf{Experiment 1}
 
+The first part of \textbf{Experiment 1} consisted of simulating the implemented design of the Finite State Machine (FSM) given below.
 
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[scale=.21]{AutomaEdit.png}
+    \caption{\textit{Rotary Combination-Lock State Diagram}}
+  \end{center}
+\end{figure}
 
-% Verilog code template
-% \lstinputlisting[language=Verilog,,caption=4-Bit ALU ]{../code name.v}
+Below is the Verilog code for the aforementioned Rotary Combination-Lock state diagram that was tested against the appropriate test bench.
+
+\lstinputlisting[language=Verilog,,caption=Combination Lock FSM]{../code/combination_lock_fsm1.v}
+
+For the $2^{\text{nd}}$ part of \textbf{Experiment 1}, the top level module was designed. The top level module is a 0-to-19 Up/Down Counter. This module keeps track of the position of the rotary knob located on the FBGA board. The module below was designed with behavioral Verilog and then tested against the appropriate test bench.
+
+\lstinputlisting[language=Verilog,,caption=Up/Down Counter]{../code/up_down_counter1.v}
+
+\hspace{-15pt}\textbf{Experiment 2}
+
+In the next part of the lab, the previously simulated modules were integrated with a given rotary encoder and LCD driver modules into a top-level module. The rotary combination lock module was set as the top level module. The other modules are as follows: "rotary\_combination\_lock.ucf" (the UCF for the top-level module), "synchronizer.v" (the synchronizer module for the asynchronous inputs), "lcd\_driver.v" (the driver module for the character LCD screen), and "rotary\_encoder\_module.v" (the quadrature decoding module). These modules are below.
+
+\lstinputlisting[language=Verilog,,caption=Rotary Combination Lock Top Level Module]{../code/rotary_combination_lock.v}
+\lstinputlisting[language=Verilog,,caption=Rotary Combination Lock UCF File]{../code/rotary_combination_lock.ucf}
+\lstinputlisting[language=Verilog,,caption=Synchronizer Module]{../code/synchronizer.v}
+\lstinputlisting[language=Verilog,,caption=LCD Driver Module]{../code/lcd_driver.v}
+\lstinputlisting[language=Verilog,,caption=Rotary Encoder Module]{../code/rotary_encoder_module.v}
+
+The modules were then synthesized onto the FBGA board and tested. 
+
+In order to add a $4^{\text{th}}$ digit (17), the following changes were made to the combination lock Verilog code. 
+
+\lstinputlisting[language=Verilog,,caption=Combination Lock FSM]{../code/combination_lock_fsm2.v}
+
+This module was then synthesized, along with all the rest, onto the FBGA board.
 
 \section*{Results}
 
-% Figure with caption
-% \begin{figure}[h]
-%   \begin{center}
-%     \includegraphics[scale=1]{2_1MuxPlot.png}
-%     \caption{\textit{2-Bit 2:1 MUX Plots}}
-%   \end{center}
-% \end{figure}
+\textbf{Experiment 1}
+
+Below are the results of the the tests as well as the waveform for the combination lock FSM Verilog design.
+
+\newpage
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[scale=.1]{Exp1WaveForm.png}
+    \caption{\textit{Combination Lock FMS Waveform}}
+  \end{center}
+\end{figure}
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[scale=.1]{ExpTestResults.png}
+    \caption{\textit{Combination Lock FMS Test Results}}
+  \end{center}
+\end{figure}
+
+\newpage
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[scale=.1]{UpDownCountWaveForm.png}
+    \caption{\textit{Up/Down Counter Waveform}}
+  \end{center}
+\end{figure}
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[scale=.1]{UpDownCountTests.png}
+    \caption{\textit{Up/Down Counter Test Results}}
+  \end{center}
+\end{figure}
 
 
 \section*{Conclusion}
