@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1480356858 "preLab12.tex" "preLab12.pdf" "preLab12" 1480356859
+["pdflatex"] 1480356858 "preLab12.tex" "preLab12.pdf" "preLab12" 1480365141
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1479772800 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1479772800 1888031 5317a64a246c13fa560847c387843238 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1479772800 1004 54797486969f23fa377b128694d548df ""
@@ -163,6 +163,6 @@
   "preLab12.tex" 1480356129 7896 bf470a224fc39b51852d56f4f5fa0cc9 ""
   "tlc_fsm.v" 1480356743 2551 c3a47f23df89998ab9c44dc940ff61a0 ""
   (generated)
-  "preLab12.aux"
   "preLab12.log"
   "preLab12.pdf"
+  "preLab12.aux"
