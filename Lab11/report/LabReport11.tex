@@ -80,39 +80,45 @@ This module was then synthesized, along with all the rest, onto the FBGA board.
 
 \textbf{Experiment 1}
 
-Below are the results of the the tests as well as the waveform for the combination lock FSM Verilog design.
-
-\newpage
+Below are the results of the the tests as well as the waveform for the combination lock FSM Verilog design that was designed in the prelab and modified in lab.
 
 \begin{figure}[h]
   \begin{center}
-    \includegraphics[scale=.1]{Exp1WaveForm.png}
+    \includegraphics[scale=.4]{Exp1WaveForm.png}
     \caption{\textit{Combination Lock FMS Waveform}}
   \end{center}
 \end{figure}
 
 \begin{figure}[h]
   \begin{center}
-    \includegraphics[scale=.1]{ExpTestResults.png}
+    \includegraphics[scale=.5]{ExpTestResults.png}
     \caption{\textit{Combination Lock FMS Test Results}}
   \end{center}
 \end{figure}
+
+Next are the test results and the waveform for the Up/Down Counter.
 
 \newpage
 
 \begin{figure}[h]
   \begin{center}
-    \includegraphics[scale=.1]{UpDownCountWaveForm.png}
+    \includegraphics[scale=.4]{UpDownCountWaveForm.png}
     \caption{\textit{Up/Down Counter Waveform}}
   \end{center}
 \end{figure}
 
 \begin{figure}[h]
   \begin{center}
-    \includegraphics[scale=.1]{UpDownCountTests.png}
+    \includegraphics[scale=.4]{UpDownCountTests.png}
     \caption{\textit{Up/Down Counter Test Results}}
   \end{center}
 \end{figure}
+
+\hspace{-15pt}\textbf{Experiment 2}
+
+For the next part of the lab, the three number combination lock was tested. It passed all of the TA's tests with the code being 13-7-17 with the first digit being selected from a clockwise rotation. 
+
+The last part of the lab involved testing the four number combination lock. This design also passed all of the TA's tests with the code being 13-7-17-17.
 
 
 \section*{Conclusion}
@@ -126,23 +132,39 @@ Below are the results of the the tests as well as the waveform for the combinati
   \item \textbf{Include the source code with comments for all modules you simulated and/or implemented in lab. You do not have to include test bench code that was provided! Code without comments will not be
 accepted!}
 
+  \textit{In the report}
+
   \item \textbf{Include screenshots of all waveforms captured during simulation in addition to the test bench console output for each test bench simulation.}
+  
+  \textit{In the report}
 
   \item \textbf{Answer all questions throughout the lab manual.}
   
+  \begin{enumerate}
+    \item \textbf{Likewise, take a look at the simulation waveform and take note of the tests that the test bench performs. Is this an exhaustive test? Why or why not?}
+    
+  The simulation waveform above does not display an exhaustive test because there are too many inputs and all of them are not taken into account. There are about $8,000$ different combinations. Also, it does not seem to take into account for the last digit, the case when the user rotates pasts the number and rotates all the way back around to the number.
+  \end{enumerate}
+  
   \item \textbf{A possible attack on your combination-lock is a brute-force attack in which every possible input combination is tried. Given the original design with a combination of three numbers between 0 and 19, how many possible input combinations exist? How about for the modified design with a combination of four numbers?}
+  
+  For the combination lock with three numbers between 0 and 19, there are $20 \cdot 20 \cdot 20 = 20^{3} = 8,000$ combinations. For the modified combination lock with four numbers ranging between 0 and 19, there are $20^4 = 160,000$ different combinations. 
 \end{enumerate}
 
 \section*{Student Feedback}
 
 \begin{enumerate}
   \item \textbf{What did you like most about the lab assignment and why? What did you like least about it and why?}
-  \vspace{10pt}
+
+  I really liked that we had to design a combination lock for this lab. There was nothing I disliked in this lab.
 
   \item \textbf{Were there any section of the lab manual that were unclear? If so, what was unclear? Do you have any suggestions for improving the clarity?}
-  \vspace{10pt}
+
+  No, the lab was very straightforward. 
 
   \item \textbf{What suggestions do you have to improve the overall lab assignment?}
+  
+  I really enjoyed this lab.
   \vspace{10pt}
 
 \end{enumerate}

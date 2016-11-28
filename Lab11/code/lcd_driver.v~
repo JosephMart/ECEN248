@@ -11,10 +11,9 @@ input clk, reset;
 
 /*needed at end of code to construct display output*/
 reg [63:0] status_ascii; //8 characters for LOCKED or UNLOCKED
-reg [15:0] count_ascii; //2 characters for decimal value of
-// count
+reg [15:0] count_ascii; //2 characters for decimal value of count
 
-//This is ****** code but I don't have time to fix it right now
+/*This is ****** code but I don't have time to fix it right now*/
 output [3:0] SF_D;
 reg [3:0] SF_D=4'd0;
 output LCD_E, LCD_RS, LCD_RW;

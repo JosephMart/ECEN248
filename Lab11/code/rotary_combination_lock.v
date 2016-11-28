@@ -4,7 +4,7 @@
 
 module rotary_combination_lock(
     /*LCD interface wires make up our output!*/
-    output wire LCD_E, LCD_RW, LCD_RS, 
+    output wire LCD_E, LCD_RW, LCD_RS,
     output wire [3:0] SF_D,
     /*Let's output state for debugging!*/
     output wire [2:0] J1,
@@ -15,13 +15,13 @@ module rotary_combination_lock(
     input South,
     input wire rotA, rotB
 );
-	
+
     /*intermediate nets*/
     wire CenterSync, SouthSync;
-    wire Right, Left; 
-    wire Locked; 
+    wire Right, Left;
+    wire Locked;
     wire [4:0] Count;
-     
+
     /*synchronize button inputs*/
     synchronizer syncA(CenterSync, Center, Clk);
     synchronizer syncB(SouthSync, South, Clk);
@@ -57,6 +57,7 @@ module rotary_combination_lock(
     );
 
     /*hook up LCD driver*/
-    lcd_driver U3(Clk, South, Count, Locked, SF_D, LCD_E, LCD_RS, LCD_RW);
+    lcd_driver U3(Clk, South, Count, Locked, SF_D, LCD_E,
+        LCD_RS, LCD_RW);
 
 endmodule

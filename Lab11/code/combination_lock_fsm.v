@@ -7,6 +7,7 @@ module combination_lock_fsm (
   input wire Clk, South // clock and reset
   );
 
+  // Parameters for the 4 cases
   parameter S0 = 2'b00,
             S1 = 2'b01,
             S2 = 2'b10,
